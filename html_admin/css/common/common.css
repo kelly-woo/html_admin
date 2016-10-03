@@ -1,0 +1,344 @@
+/* CSS Document */
+@charset "utf-8";
+
+:lang(en), :lang(ko) {
+  word-break: keep-all;
+  word-wrap: break-word
+}
+
+:lang(ja), :lang(zh-cn), :lang(zh-tw) {
+  word-break: break-all;
+}
+
+.tooltip.nowrap .tooltip-inner {
+  white-space: nowrap;
+}
+
+.tooltip.nowrap .tooltip-inner span {
+  white-space: nowrap;
+}
+
+/*btn-ui hover시 혹은 특정 행동에 대한 변경*/
+.btn-box .btn {
+  vertical-align: text-bottom
+}
+.btn {
+  -moz-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  -o-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.btn:focus {outline: none;}
+.btn-blue {
+  background-color: #00ace9;
+  color: #fff;
+  border: 1px solid #00ace9;
+}
+.btn-blue:hover,
+.btn-blue:focus {
+  background-color: #26688c;
+  border: 1px solid #26688c;
+}
+
+.btn-red {
+  background-color: #d9534f;
+  color: #fff;
+  border: 1px solid #d43f3a;
+}
+
+.btn-red:hover,
+.btn-red:focus {
+  background-color: #c9302c;
+  border: 1px solid #ac2925;
+}
+
+.btn-fff {
+  background-color: #fff;
+  color: #91a1ba;
+  border: 1px solid #d5dde2;
+}
+
+.btn-fff:hover,
+.btn-fff:focus {
+  background-color: #eff6fb;
+  color: #11476f;
+}
+
+.btn-invite {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+  color: #11476f;
+  border: 1px solid #d7dce6;
+  padding: 8px 10px;
+  border-radius: 3px;
+  background-color:#fff;
+}
+.btn-invite:hover,
+.btn-invite:focus {
+  border-color: #b9c3cd;
+}
+.btn-invite .icon-mail {
+  font-size: 17px;
+}
+.btn-invite .icon-delete {
+  font-size: 14px;
+}
+
+/*flat-button*/
+
+#body .btn:disabled {
+  background-color: rgba(204,204,204,0.8);
+  border-color: rgba(204,204,204,0.8);
+  color: rgba(255,255,255,0.8);
+  cursor: not-allowed;
+}
+
+.btn-box.btn-s1 .btn,
+.btn.btn-s1 {
+  height: 35px;
+  padding: 0 13px;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.btn-box.btn-s1 .btn .prefix:before,
+.btn.btn-s1 .prefix:before {
+  margin-left: -1px;
+  margin-right: 8px;
+}
+
+.btn-box .btn {
+  margin-left: 3px;
+}
+
+.btn-box .btn:first-child {
+  margin-left: 0px;
+}
+
+.opt-active {
+  position: relative;
+  display: inline-block
+}
+
+.opt-active.selected {
+  color: #124671 !important;
+  padding-right: 25px !important;
+}
+
+.opt-active.selected:before {
+  font-family: 'jandi-icon' !important;
+  content: "\e92c";
+  position: absolute;
+  right: 5px;
+  font-size: 12px;
+  top: 0;
+  font-weight: bold;
+  color: #124671;
+
+}
+
+.red-unread-badge {
+  color: #fff;
+  max-width: 41px;
+  min-width: 26px;
+  overflow: hidden;
+  padding: 3px 6px;
+  height: 19px;
+  line-height: 1em;
+  background-color: #e94e24;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 16px;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.fn-user-name {
+  color: #333;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: normal;
+  word-break: break-all
+}
+
+/*profile 사진*/
+.img-user-profile {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: content-box;
+  border: 1px solid #e8eaec
+}
+
+.img-user-profile .img {
+  width: 100%;
+}
+
+.img-round {
+  border-radius: 50%;
+  width: 100%;
+}
+
+/*jdn-drop-menu*/
+.jnd-drop-menu {
+  position: absolute;
+  z-index: 100;
+  top: 100%;
+}
+
+html .jnd-drop-reverse {
+  top: auto;
+  bottom: 100%;
+}
+
+html .jnd-drop-reverse .jnd-drop-option {
+  margin-bottom: 3px;
+  margin-top: 0;
+}
+
+.jnd-drop-option {
+  margin-top: 3px;
+  position: relative;
+  border: 1px solid #d5dadb;
+  border-radius: 3px;
+  padding: 3px 0;
+  color: #333;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.jnd-drop-option .option-title {
+  position: relative;
+  padding: 0 10px;
+  font-size: 10px;
+  color: #9f9f9f;
+  line-height: 24px;
+}
+
+.jnd-drop-option .option-item {
+  position: relative;
+  padding: 0 12px;
+  display: block;
+  width: 100%;
+  line-height: 33px;
+  cursor: pointer;
+}
+.jnd-drop-option .option-item:focus,
+.jnd-drop-option .option-item:hover {
+  background-color: #ecf3f9;
+  outline: none;
+}
+
+.jnd-drop-option .option-txt {
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+.jnd-drop-option .option-title:first-child {
+  margin-top: -3px;
+}
+
+.jnd-drop-option .prefix-icon + .option-txt {
+  padding-left: 26px;
+}
+
+.jnd-drop-option .prefix .prefix-icon {
+  position: absolute;
+  left: 14px;
+  color: #7f7f7f;
+}
+
+.jnd-drop-option .prefix .prefix-icon.icon-sign-out {
+  font-size: 15px;
+}
+
+.warning-box {
+  background-color: #f7e7e8;
+  border-radius: 5px;
+  padding: 13px 15px;
+  position: relative;
+}
+.fn-warning {
+  color: #e34f4f;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+.fn-warning.icon-warning-fill:before {
+  font-size: 1.06em;
+  font-weight: 100;
+}
+
+.team-admin-label {
+  height: 21px;
+  line-height: 21px;
+  font-size: 13px;
+  padding:3px 9px 4px;
+  margin-right: 5px;
+  background-color: rgba(183, 199, 212, 0.3);
+  color: rgba(122,146,156, 0.8);
+  font-weight: 700;
+  border-radius: 16px;
+  white-space: nowrap;
+}
+
+.lang-drop-menu .jnd-drop-option .option-item {
+  padding-left:47px;
+  width: 160px;
+}
+.lang-drop-menu .jnd-drop-option .bg-flag {
+  display: block;
+  transform:scale(0.5,0.5);
+  position: absolute;
+  top: -8px;
+  left:0;
+  border: 1px solid #c8ccd9;
+  border-radius: 100%;
+  box-sizing: content-box;
+}
+
+
+.bg-flag {
+  background: #fff url(../../assets/images/icon_flags.svg) 0 0 no-repeat;
+  background-size: auto 100%;
+  width: 48px;
+  height: 48px;
+}
+
+.bg-flag.flag-ko {
+  background-position: 0 0;
+}
+
+.bg-flag.flag-en {
+  background-position: -58px 0;
+}
+
+.bg-flag.flag-ja {
+  background-position: -116px 0;
+}
+.bg-flag.flag-sc {
+  background-position: -174px 0;
+}
+.bg-flag.flag-tc {
+  background-position: -232px 0;
+}
+
+.bg-platform {
+  background: url(../../assets/images/platform-logo.svg) 0 0 no-repeat;
+  background-size: auto 100%;
+}
+.bg-platform.win {
+  background-position: left 0;
+}
+.bg-platform.mac {
+  background-position: right 0;
+}
+

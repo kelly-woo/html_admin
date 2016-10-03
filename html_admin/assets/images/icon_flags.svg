@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="290px" height="48px" viewBox="0 0 290 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>flag-sprite</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="48" height="48"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag-sprite">
+            <g id="KR" transform="translate(6.000000, 8.000000)">
+                <g id="inner-circle" transform="translate(17.716114, 16.716114) rotate(22.000000) translate(-17.716114, -16.716114) translate(8.716114, 7.716114)">
+                    <path d="M9.03431885,9.67477134 L17.9750856,9.67477134 C17.9915972,9.45200621 18,9.2269844 18,9 C18,4.02943725 13.9705627,-6.21724894e-15 9,-6.21724894e-15 C4.02943725,-6.21724894e-15 7.10542736e-15,4.02943725 7.10542736e-15,9 C7.10542736e-15,9.2269844 0.00840282451,9.45200621 0.0249143753,9.67477134 L0.0387135277,9.67477134 C0.113705374,12.094352 2.09873763,14.0327894 4.53651619,14.0327894 C6.97429475,14.0327894 8.959327,12.094352 9.03431885,9.67477134 Z" id="Combined-Shape" fill="#F0191B"></path>
+                    <path d="M17.9929796,9.33643643 C17.877756,6.95380806 15.9094945,5.05743564 13.4983114,5.05743564 C11.1654893,5.05743564 9.24726756,6.83255074 9.0207003,9.10572679 C9.0291835,9.21861536 9.03350171,9.33266572 9.03350171,9.44772466 C9.03350171,11.933006 7.01878308,13.9477247 4.53350171,13.9477247 C2.23531448,13.9477247 0.339508027,12.2249277 0.067096419,10.000348 L0.0540675304,10.000348 C0.551511819,14.5002984 4.3665851,18.000348 8.99913875,18.000348 C13.8571778,18.000348 17.8162194,14.1512827 17.9929796,9.33643643 Z" id="Combined-Shape" fill="#163B93"></path>
+                </g>
+                <g id="box-left-bottom" transform="translate(6.010408, 27.010408) scale(1, -1) rotate(45.000000) translate(-6.010408, -27.010408) translate(2.510408, 22.010408)" fill="#333333">
+                    <rect id="Rectangle-4" x="7.10542736e-15" y="7.10542736e-15" width="1.5" height="10"></rect>
+                    <path d="M4,4.375 L4,7.10542736e-15 L2.5,7.10542736e-15 L2.5,4.375 L4,4.375 Z M4,5.625 L4,10 L2.5,10 L2.5,5.625 L4,5.625 Z" id="Combined-Shape"></path>
+                    <rect id="Rectangle-4" x="5" y="7.10542736e-15" width="1.5" height="10"></rect>
+                </g>
+                <g id="box-left-top" transform="translate(6.010408, 6.010408) rotate(45.000000) translate(-6.010408, -6.010408) translate(2.510408, 1.010408)" fill="#333333">
+                    <rect id="Rectangle-4" x="1.0658141e-14" y="0" width="1.5" height="10"></rect>
+                    <rect id="Rectangle-4" x="2.5" y="-1.77635684e-15" width="1.5" height="10"></rect>
+                    <rect id="Rectangle-4" x="5" y="-8.8817842e-16" width="1.5" height="10"></rect>
+                </g>
+                <g id="box-left-top-copy" transform="translate(29.010408, 6.010408) scale(-1, 1) rotate(45.000000) translate(-29.010408, -6.010408) translate(25.510408, 1.010408)" fill="#333333">
+                    <path d="M1.5,4.375 L1.5,-3.90798505e-14 L7.10542736e-15,-3.90798505e-14 L7.10542736e-15,4.375 L1.5,4.375 Z M1.5,5.625 L1.5,10 L7.10542736e-15,10 L7.10542736e-15,5.625 L1.5,5.625 Z" id="Combined-Shape"></path>
+                    <rect id="Rectangle-4" x="2.5" y="-3.90798505e-14" width="1.5" height="10"></rect>
+                    <path d="M6.5,4.375 L6.5,-3.90798505e-14 L5,-3.90798505e-14 L5,4.375 L6.5,4.375 Z M6.5,5.625 L6.5,10 L5,10 L5,5.625 L6.5,5.625 Z" id="Combined-Shape"></path>
+                </g>
+                <g id="box-left-top-copy-2" transform="translate(29.010408, 27.010408) rotate(45.000000) translate(-29.010408, -27.010408) translate(25.510408, 22.010408)" fill="#333333">
+                    <path d="M1.5,4.375 L1.5,-1.42108547e-14 L1.42108547e-14,-1.42108547e-14 L1.42108547e-14,4.375 L1.5,4.375 Z M1.5,5.625 L1.5,10 L1.42108547e-14,10 L1.42108547e-14,5.625 L1.5,5.625 Z" id="Combined-Shape"></path>
+                    <path d="M4,4.375 L4,-3.90798505e-14 L2.5,-3.90798505e-14 L2.5,4.375 L4,4.375 Z M4,5.625 L4,10 L2.5,10 L2.5,5.625 L4,5.625 Z" id="Combined-Shape"></path>
+                    <path d="M6.5,4.375 L6.5,-3.55271368e-14 L5,-3.55271368e-14 L5,4.375 L6.5,4.375 Z M6.5,5.625 L6.5,10 L5,10 L5,5.625 L6.5,5.625 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+            <g id="EN" transform="translate(58.000000, -2.000000)">
+                <g id="red-box" transform="translate(0.000000, 0.500000)" fill="#C2222C">
+                    <rect id="Rectangle-Copy" x="0" y="48" width="48" height="3"></rect>
+                    <rect id="Rectangle" x="0" y="42" width="48" height="3"></rect>
+                    <rect id="Rectangle" x="0" y="36" width="48" height="3"></rect>
+                    <rect id="Rectangle" x="0" y="30" width="48" height="3"></rect>
+                    <rect id="Rectangle" x="0" y="24" width="48" height="3"></rect>
+                    <rect id="Rectangle" x="0" y="18" width="48" height="3"></rect>
+                    <rect id="Rectangle" x="0" y="12" width="48" height="3"></rect>
+                    <rect id="Rectangle" x="0" y="6" width="48" height="3"></rect>
+                    <rect id="Rectangle" x="0" y="0" width="48" height="3"></rect>
+                </g>
+                <rect id="blue-box" fill="#133573" x="0" y="2" width="24" height="25.5"></rect>
+                <g id="white-star-1" transform="translate(2.700001, 5.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle-3" transform="translate(1.414214, 1.414214) rotate(45.000000) translate(-1.414214, -1.414214) " x="0.414213562" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(5.414214, 1.414214) rotate(45.000000) translate(-5.414214, -1.414214) " x="4.41421356" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(9.414214, 1.414214) rotate(45.000000) translate(-9.414214, -1.414214) " x="8.41421356" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(13.414214, 1.414214) rotate(45.000000) translate(-13.414214, -1.414214) " x="12.4142136" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(17.414214, 1.414214) rotate(45.000000) translate(-17.414214, -1.414214) " x="16.4142136" y="0.414213562" width="2" height="2"></rect>
+                </g>
+                <g id="white-star-1" transform="translate(2.700001, 9.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle-3" transform="translate(1.414214, 1.414214) rotate(45.000000) translate(-1.414214, -1.414214) " x="0.414213562" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(5.414214, 1.414214) rotate(45.000000) translate(-5.414214, -1.414214) " x="4.41421356" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(9.414214, 1.414214) rotate(45.000000) translate(-9.414214, -1.414214) " x="8.41421356" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(13.414214, 1.414214) rotate(45.000000) translate(-13.414214, -1.414214) " x="12.4142136" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(17.414214, 1.414214) rotate(45.000000) translate(-17.414214, -1.414214) " x="16.4142136" y="0.414213562" width="2" height="2"></rect>
+                </g>
+                <g id="white-star-1" transform="translate(2.700001, 13.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle-3" transform="translate(1.414214, 1.414214) rotate(45.000000) translate(-1.414214, -1.414214) " x="0.414213562" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(5.414214, 1.414214) rotate(45.000000) translate(-5.414214, -1.414214) " x="4.41421356" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(9.414214, 1.414214) rotate(45.000000) translate(-9.414214, -1.414214) " x="8.41421356" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(13.414214, 1.414214) rotate(45.000000) translate(-13.414214, -1.414214) " x="12.4142136" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(17.414214, 1.414214) rotate(45.000000) translate(-17.414214, -1.414214) " x="16.4142136" y="0.414213562" width="2" height="2"></rect>
+                </g>
+                <g id="white-star-1" transform="translate(2.700001, 17.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle-3" transform="translate(1.414214, 1.414214) rotate(45.000000) translate(-1.414214, -1.414214) " x="0.414213562" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(5.414214, 1.414214) rotate(45.000000) translate(-5.414214, -1.414214) " x="4.41421356" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(9.414214, 1.414214) rotate(45.000000) translate(-9.414214, -1.414214) " x="8.41421356" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(13.414214, 1.414214) rotate(45.000000) translate(-13.414214, -1.414214) " x="12.4142136" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(17.414214, 1.414214) rotate(45.000000) translate(-17.414214, -1.414214) " x="16.4142136" y="0.414213562" width="2" height="2"></rect>
+                </g>
+                <g id="white-star-1" transform="translate(2.700001, 21.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle-3" transform="translate(1.414214, 1.414214) rotate(45.000000) translate(-1.414214, -1.414214) " x="0.414213562" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(5.414214, 1.414214) rotate(45.000000) translate(-5.414214, -1.414214) " x="4.41421356" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(9.414214, 1.414214) rotate(45.000000) translate(-9.414214, -1.414214) " x="8.41421356" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(13.414214, 1.414214) rotate(45.000000) translate(-13.414214, -1.414214) " x="12.4142136" y="0.414213562" width="2" height="2"></rect>
+                    <rect id="Rectangle-3" transform="translate(17.414214, 1.414214) rotate(45.000000) translate(-17.414214, -1.414214) " x="16.4142136" y="0.414213562" width="2" height="2"></rect>
+                </g>
+            </g>
+            <g id="JP" transform="translate(129.000000, 13.000000)" fill="#C0001F">
+                <circle id="Oval-2" cx="11" cy="11" r="11"></circle>
+            </g>
+            <g id="CN" transform="translate(174.000000, 0.000000)">
+                <rect id="CN-guide" fill="#D01C20" x="0" y="0" width="48" height="48"></rect>
+                <polygon id="Star" fill="#FAC601" points="14 22 9.29771798 24.472136 10.1957739 19.236068 6.39154787 15.527864 11.648859 14.763932 14 10 16.351141 14.763932 21.6084521 15.527864 17.8042261 19.236068 18.702282 24.472136"></polygon>
+                <g id="YL-star" transform="translate(24.700001, 5.000000)" fill="#FAC601">
+                    <rect id="Rectangle-3" transform="translate(2.914214, 2.914214) rotate(45.000000) translate(-2.914214, -2.914214) " x="1.41421356" y="1.41421356" width="3" height="3"></rect>
+                    <rect id="Rectangle-3" transform="translate(7.914214, 8.914214) rotate(45.000000) translate(-7.914214, -8.914214) " x="6.41421356" y="7.41421356" width="3" height="3"></rect>
+                    <rect id="Rectangle-3" transform="translate(12.914214, 14.914214) rotate(45.000000) translate(-12.914214, -14.914214) " x="11.4142136" y="13.4142136" width="3" height="3"></rect>
+                    <rect id="Rectangle-3" transform="translate(9.914214, 22.914214) rotate(45.000000) translate(-9.914214, -22.914214) " x="8.41421356" y="21.4142136" width="3" height="3"></rect>
+                </g>
+            </g>
+            <g id="TW" transform="translate(232.000000, 0.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="CN-guide" fill="#F12C20" xlink:href="#path-1"></use>
+                <rect id="blue-box" fill="#2C3691" x="0" y="0" width="25" height="25"></rect>
+                <path d="M12.5,17.5 C15.2614237,17.5 17.5,15.2614237 17.5,12.5 C17.5,9.73857625 15.2614237,7.5 12.5,7.5 C9.73857625,7.5 7.5,9.73857625 7.5,12.5 C7.5,15.2614237 9.73857625,17.5 12.5,17.5 Z" id="Oval-2" fill="#FFFFFF"></path>
+                <g id="Group" transform="translate(11.000000, 5.000000)" fill="#FFFFFF">
+                    <polygon id="Rectangle-3" points="0.5 13 2.5 13 1.5008255 15"></polygon>
+                    <polygon id="Rectangle-3" transform="translate(1.500000, 1.000000) scale(1, -1) translate(-1.500000, -1.000000) " points="0.5 0 2.5 0 1.5008255 2"></polygon>
+                </g>
+                <g id="Group" transform="translate(12.500000, 12.500000) rotate(30.000000) translate(-12.500000, -12.500000) translate(11.000000, 5.000000)" fill="#FFFFFF">
+                    <polygon id="Rectangle-3" points="0.5 13 2.5 13 1.5008255 15"></polygon>
+                    <polygon id="Rectangle-3" transform="translate(1.500000, 1.000000) scale(1, -1) translate(-1.500000, -1.000000) " points="0.5 0 2.5 0 1.5008255 2"></polygon>
+                </g>
+                <g id="Group" transform="translate(12.500000, 12.500000) rotate(60.000000) translate(-12.500000, -12.500000) translate(11.000000, 5.000000)" fill="#FFFFFF">
+                    <polygon id="Rectangle-3" points="0.5 13 2.5 13 1.5008255 15"></polygon>
+                    <polygon id="Rectangle-3" transform="translate(1.500000, 1.000000) scale(1, -1) translate(-1.500000, -1.000000) " points="0.5 0 2.5 0 1.5008255 2"></polygon>
+                </g>
+                <g id="Group" transform="translate(12.500000, 12.500000) rotate(-270.000000) translate(-12.500000, -12.500000) translate(11.000000, 5.000000)" fill="#FFFFFF">
+                    <polygon id="Rectangle-3" points="0.5 13 2.5 13 1.5008255 15"></polygon>
+                    <polygon id="Rectangle-3" transform="translate(1.500000, 1.000000) scale(1, -1) translate(-1.500000, -1.000000) " points="0.5 0 2.5 0 1.5008255 2"></polygon>
+                </g>
+                <g id="Group" transform="translate(12.500000, 12.500000) rotate(-240.000000) translate(-12.500000, -12.500000) translate(11.000000, 5.000000)" fill="#FFFFFF">
+                    <polygon id="Rectangle-3" points="0.5 13 2.5 13 1.5008255 15"></polygon>
+                    <polygon id="Rectangle-3" transform="translate(1.500000, 1.000000) scale(1, -1) translate(-1.500000, -1.000000) " points="0.5 0 2.5 0 1.5008255 2"></polygon>
+                </g>
+                <g id="Group" transform="translate(12.500000, 12.500000) rotate(-210.000000) translate(-12.500000, -12.500000) translate(11.000000, 5.000000)" fill="#FFFFFF">
+                    <polygon id="Rectangle-3" points="0.5 13 2.5 13 1.5008255 15"></polygon>
+                    <polygon id="Rectangle-3" transform="translate(1.500000, 1.000000) scale(1, -1) translate(-1.500000, -1.000000) " points="0.5 0 2.5 0 1.5008255 2"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

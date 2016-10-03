@@ -1,0 +1,319 @@
+<!doctype html>
+<html ng-app="jandiApp" lang="ko" class="no-js">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <!--<base href="/main/">-->
+  <meta name="description" content="JANDI"/>
+  <meta name="keywords" content="JANDI, 잔디"/>
+  <meta name="author" content="TossLab"/>
+  <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+  <title>JANDI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <meta name="apple-itunes-app" content="app-id=904895208">
+
+  <meta property="og:title" content="Rediscover Teamwork"/>
+  <meta property="og:type" content="website"/>
+
+  <meta property="og:image" content="http://www.jandi.com/images/jandi-logo-facebook.png?v=2"/>
+  <meta property="og:image:secure_url" content="https://www.jandi.com/images/jandi-logo-facebook.png?v=2"/>
+
+  <meta property="og:image" content="http://www.jandi.com/images/jandi-main-facebook.png.png?v=2"/>
+  <meta property="og:image:secure_url" content="https://www.jandi.com/images/jandi-main-facebook.png.png?v=2"/>
+
+  <meta property="og:url" content="https://www.jandi.com/main/#/"/>
+
+  <meta property="og:site_name" content="JANDI"/>
+  <meta property="og:description"
+        content="JANDI is the future of group communications and information sharing. Instant, easy to use, always available – the way it was meant to be."/>
+
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:locale:alternate" content="ko_KR"/>
+  <meta property="og:locale:alternate" content="zh_TW"/>
+  <meta property="og:locale:alternate" content="zh_CN"/>
+  <meta property="og:locale:alternate" content="ja_JP"/>
+  <meta name="google-site-verification" content="hIh04duA3_Xgxe4yj1yxXgGrt08vLXbMq8GQdNq6e40"/>
+  <link type="text/css" rel="stylesheet" href="css/common/reset.css">
+  <link type="text/css" rel="stylesheet" href="css/common/style.css">
+  <link type="text/css" rel="stylesheet" href="css/common/jnd.form.css">
+  <link type="text/css" rel="stylesheet" href="css/common/jnd.tab.css">
+  <link type="text/css" rel="stylesheet" href="css/common/jnd.tooltip.css">
+  <link type="text/css" rel="stylesheet" href="css/common/jandi-icon.css">
+  <link type="text/css" rel="stylesheet" href="css/common/layout.css">
+  <link type="text/css" rel="stylesheet" href="css/common/common.css">
+  <link type="text/css" rel="stylesheet" href="css/sub.team.css">
+  <link type="text/css" rel="stylesheet" href="css/sub.team.stats.css">
+  <link type="text/css" rel="stylesheet" href="css/sub.team.member.css">
+  <link type="text/css" rel="stylesheet" href="css/sub.account.css">
+</head>
+<body id="body" ng-class="{
+  'mobile-f': false,
+  'web-f': true,
+}">
+<div class="wrap" id="wrap" ng-class="{'fade in':}">
+  <header class="header">
+    <h1 class="logo">
+      <a href="/">
+        <img src="assets/images/logo-white.svg" class="img-logo" alt="Jandi"/>
+      </a>
+    </h1>
+    <button type="button" class="btn-download">
+      <span src="assets/images/platform-logo.svg" class="bg-platform win" ng-class="{'mac':false, 'win':false}" alt="Jandi"></span>
+      <span>Download for Windows</span>
+    </button>
+    <nav class="gnb">
+      <ul class="gnb-menu">
+        <li class="gnb-lang border open">
+          <a href="#">
+            <span class="gnb-img-box mgr10">
+              <img class="img-round"
+                   src="https://jandi-box.com/files-profile/3dc4aaa86c48c13df21d430648c247c6.jpg?size=80"
+                   alt="language"/>
+            </span>
+            <span class="gnb-txt-box">한국어</span>
+          </a>
+          <div class="jnd-drop-menu lang-drop-menu">
+            <div class="jnd-drop-option">
+              <h5 class="option-title">
+                <span class="option-txt">언어설정</span>
+              </h5>
+              <ul>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-ko" aria-hidden="true"></i>
+                  <span class="option-txt">한국어</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-en" aria-hidden="true"></i>
+                  <span class="option-txt">English</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-ja" aria-hidden="true"></i>
+                  <span class="option-txt">한국어</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-sc" aria-hidden="true"></i>
+                  <span class="option-txt">한국어</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-tc" aria-hidden="true"></i>
+                  <span class="option-txt">한국어</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="gnb-profile">
+          <a href="#">
+            <span class="gnb-img-box mgr8">
+              <img class="img-round img-user-profile"
+                   src="https://jandi-box.com/files-profile/3dc4aaa86c48c13df21d430648c247c6.jpg?size=80"
+                   alt="user profile image"/>
+            </span>
+            <span class="gnb-txt-box">maxlenthofnameis30chracters!</span>
+          </a>
+          <div class="jnd-drop-menu gnb-profile-menu">
+            <div class="jnd-drop-option">
+              <h5 class="option-title">
+                <span class="option-txt" translate>프로필</span>
+              </h5>
+              <ul class="prefix">
+                <li tabindex="0" class="option-item">
+                  <i class="prefix-icon icon-pencil" aria-hidden="true"></i>
+                  <span class="option-txt" translate>프로필 설정하기</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="prefix-icon icon-sign-out" aria-hidden="true"></i>
+                  <span class="option-txt" translate>로그아웃</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="container">
+    <div class="inner-wrap pg-sub">
+      <section class="section sub-team">
+        <header class="section-head">
+          <div class="section-path">
+            <a href="#" class="path-1">잔디 메인</a>
+            <i class="icon icon-angle-right"></i>
+            <a href="#" class="path-2"><strong>관리자 메뉴</strong></a>
+          </div>
+        </header>
+        <article class="section-body">
+          <div class="team-head">
+            <h3 class="team-title">
+              <i class="icon icon-users" aria-hidden="true"></i>
+              <strong class="team-name">팀이름에는 최대 20자까지입력이 가능합니다.</strong>
+              <em class="plan-label">STANDARD</em>
+            </h3>
+            <a href="#" class="team-host ellip-1">dddddd</a>
+            <button type="button" class="btn btn-blue btn-s1 btn-team-link">팀으로 가기</button>
+          </div>
+          <div class="jnd-tab team-board">
+            <nav class="tab-nav">
+              <ul class="tab-index">
+                <li class="active">
+                  <a class="tab-link" href="#tab_1" title="open tab">
+                    <span class="txt off">팀 사용량</span>
+                    <span class="txt on">팀 사용량</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="tab-link" href="#" title="open tab">
+                    <span class="txt off">멤버 관리</span>
+                    <span class="txt on">멤버 관리</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="tab-link" href="#" title="open tab">
+                    <span class="txt off">팀 관리</span>
+                    <span class="txt on">팀 관리</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="tab-link" href="#" title="open tab">
+                    <span class="txt off">개인 설정</span>
+                    <span class="txt on">개인 설정</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <section class="tab-stage">
+              <article class="tab-page team-mmb active" ng-class="{'active':true }">
+                <h3 class="tab-title blind">팀 사용량</h3>
+                <div class="pad-box">
+                  <ul class="team-mmb-search col-2 clear-fix">
+                    <li class="jnd-search-box">
+                      <i class="icon-search icon" aria-hidden="true"></i>
+                      <input class="jnd-input" title="name" type="search" placeholder="search for members by name" />
+                    </li>
+                    <li class="jnd-input-box">
+                      <select class="jnd-select" title="">
+                        <option value="">멤버(3명)</option>
+                      </select>
+                    </li>
+                  </ul>
+                </div>
+                <div class="team-mmb-view">
+                  <ul class="team-mmb-list">
+                    <li class="no-res">
+                      검색 결과가 없습니다.
+                    </li>
+                    <li class="admin" ng-class="{'on':false}">
+                      <dl class="mmb-item">
+                        <dt><span class="fn-user-name">최대 글자수는30자인데 한글일때 엄청길죠 어디어디까지 길어질까요</span><em class="team-admin-label">팀 관리자</em></dt>
+                        <dd class="fn-user-email ellip-1">kellykelly@naver.com</dd>
+                        <dd class="img-user-profile">
+                          <img class="img" src="https://jandi-box.com/files-profile/3dc4aaa86c48c13df21d430648c247c6.jpg?size=80" alt="user profile image" />
+                        </dd>
+                        <dd tabindex="0" class="btn-toggle">
+                          <i class="icon-angle-down icon"></i>
+                          <span class="blind">click to show or hide the information</span>
+                        </dd>
+                      </dl>
+                      <div class="mmb-info">
+                        <p class="txt-r">You are the team owner</p>
+                      </div>
+                    </li>
+                    <li class="member">
+                      <dl class="mmb-item">
+                        <dt><span class="fn-user-name">최대 글자수는30자인데 한글일때 엄청길죠 어디어디까지 길어질까요</span></dt>
+                        <dd class="fn-user-email ellip-1">kellykelly@naver.com</dd>
+                        <dd class="img-user-profile">
+                          <img class="img" src="https://jandi-box.com/files-profile/3dc4aaa86c48c13df21d430648c247c6.jpg?size=80" alt="user profile image" />
+                        </dd>
+                        <dd tabindex="0" class="btn-toggle">
+                          <i class="icon-angle-down icon"></i>
+                          <span class="blind">click to show or hide the information</span>
+                        </dd>
+                      </dl>
+                      <div class="mmb-info">
+                        <div class="btn-box">
+                          <button type="button" class="btn btn-member">
+                            <i class="fi-15 icon-wrench icon prefix"></i><span>Transfer ownership to this member</span>
+                          </button>
+                          <button type="button" class="btn btn-member">
+                            <i class="fi-16 icon-member-disabled-fill prefix"></i><span>Disable this member</span>
+                          </button>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="invited on">
+                      <dl class="mmb-item">
+                        <dt><span class="fn-user-name">최대 글자수는30자인데 한글일때 엄청길죠 어디어디까지 길어질까요</span></dt>
+                        <dd class="fn-user-email ellip-1">kellykelly@naver.com</dd>
+                        <dd class="img-user-profile">
+                          <img class="img" src="https://jandi-box.com/files-profile/3dc4aaa86c48c13df21d430648c247c6.jpg?size=80" alt="user profile image" />
+                        </dd>
+                        <dd tabindex="0" class="btn-toggle">
+                          <i class="icon-angle-down icon"></i>
+                          <span class="blind">click to show or hide the information</span>
+                        </dd>
+                      </dl>
+                      <div class="mmb-info">
+                        <div class="btn-box">
+                          <button type="button" class="btn btn-member">
+                            <i class="fi-17 icon-mail prefix"></i><span>Resend Invitation</span>
+                          </button>
+                          <button type="button" class="btn btn-member">
+                            <i class="fi-14 icon-delete prefix"></i><span>Resend Invitation</span>
+                          </button>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="member">
+                      <dl class="mmb-item">
+                        <dt><span class="fn-user-name">최대 글자수는30자인데 한글일때 엄청길죠 어디어디까지 길어질까요</span></dt>
+                        <dd class="fn-user-email ellip-1">kellykelly@naver.com</dd>
+                        <dd class="img-user-profile">
+                          <img class="img" src="https://jandi-box.com/files-profile/3dc4aaa86c48c13df21d430648c247c6.jpg?size=80" alt="user profile image" />
+                        </dd>
+                        <dd tabindex="0" class="btn-toggle">
+                          <i class="icon-angle-down icon"></i>
+                          <span class="blind">click to show or hide the information</span>
+                        </dd>
+                      </dl>
+                      <div class="mmb-info">
+                        <div class="btn-box">
+                          <button type="button" class="btn btn-member">
+                            <i class="fi-15 icon-wrench icon prefix"></i><span>Transfer ownership to this member</span>
+                          </button>
+                          <button type="button" class="btn btn-member">
+                            <i class="fi-16 icon-member-disabled-fill prefix"></i><span>Disable this member</span>
+                          </button>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+              </article>
+            </section>
+          </div>
+        </article>
+      </section>
+    </div>
+  </article>
+  <footer class="footer">
+    <div class="inner-wrap clear-fix">
+      <div class="fl-l">
+        <p class="copy-right">ⓒ Toss Lab, Inc</p>
+      </div>
+      <div class="fl-r">
+        <ul class="gfm">
+          <li><a href="#" target="_blank">FAQ</a></li>
+          <li><a href="#" target="_blank">Privacy Policy</a></li>
+          <li><a href="#" target="_blank">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

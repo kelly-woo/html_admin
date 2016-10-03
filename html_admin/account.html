@@ -1,0 +1,369 @@
+<!doctype html>
+<html ng-app="jandiApp" lang="ko" class="no-js">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <!--<base href="/main/">-->
+  <meta name="description" content="JANDI"/>
+  <meta name="keywords" content="JANDI, 잔디"/>
+  <meta name="author" content="TossLab"/>
+  <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+  <title>JANDI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <meta name="apple-itunes-app" content="app-id=904895208">
+
+  <meta property="og:title" content="Rediscover Teamwork"/>
+  <meta property="og:type" content="website"/>
+
+  <meta property="og:image" content="http://www.jandi.com/images/jandi-logo-facebook.png?v=2"/>
+  <meta property="og:image:secure_url" content="https://www.jandi.com/images/jandi-logo-facebook.png?v=2"/>
+
+  <meta property="og:image" content="http://www.jandi.com/images/jandi-main-facebook.png.png?v=2"/>
+  <meta property="og:image:secure_url" content="https://www.jandi.com/images/jandi-main-facebook.png.png?v=2"/>
+
+  <meta property="og:url" content="https://www.jandi.com/main/#/"/>
+
+  <meta property="og:site_name" content="JANDI"/>
+  <meta property="og:description"
+        content="JANDI is the future of group communications and information sharing. Instant, easy to use, always available – the way it was meant to be."/>
+
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:locale:alternate" content="ko_KR"/>
+  <meta property="og:locale:alternate" content="zh_TW"/>
+  <meta property="og:locale:alternate" content="zh_CN"/>
+  <meta property="og:locale:alternate" content="ja_JP"/>
+  <meta name="google-site-verification" content="hIh04duA3_Xgxe4yj1yxXgGrt08vLXbMq8GQdNq6e40"/>
+  <link type="text/css" rel="stylesheet" href="css/common/reset.css">
+  <link type="text/css" rel="stylesheet" href="css/common/style.css">
+  <link type="text/css" rel="stylesheet" href="css/common/jnd.form.css">
+  <link type="text/css" rel="stylesheet" href="css/common/jnd.tab.css">
+  <link type="text/css" rel="stylesheet" href="css/common/jnd.tooltip.css">
+  <link type="text/css" rel="stylesheet" href="css/common/jandi-icon.css">
+  <link type="text/css" rel="stylesheet" href="css/common/layout.css">
+  <link type="text/css" rel="stylesheet" href="css/common/common.css">
+  <link type="text/css" rel="stylesheet" href="css/sub.team.css">
+  <link type="text/css" rel="stylesheet" href="css/sub.team.stats.css">
+  <link type="text/css" rel="stylesheet" href="css/sub.team.member.css">
+  <link type="text/css" rel="stylesheet" href="css/sub.account.css">
+</head>
+<body id="body" ng-class="{
+  'mobile-f': false,
+  'web-f': true,
+}">
+<div class="wrap" id="wrap" ng-class="{'fade in':}">
+  <header class="header">
+    <h1 class="logo">
+      <a href="/">
+        <img src="assets/images/logo-white.svg" class="img-logo" alt="Jandi"/>
+      </a>
+    </h1>
+    <button type="button" class="btn-download">
+      <span src="assets/images/platform-logo.svg" class="bg-platform win" ng-class="{'mac':false, 'win':false}" alt="Jandi"></span>
+      <span>Download for Windows</span>
+    </button>
+    <nav class="gnb">
+      <ul class="gnb-menu">
+        <li class="gnb-lang border open">
+          <a href="#">
+            <span class="gnb-img-box mgr10">
+              <img class="img-round"
+                   src="https://jandi-box.com/files-profile/3dc4aaa86c48c13df21d430648c247c6.jpg?size=80"
+                   alt="language"/>
+            </span>
+            <span class="gnb-txt-box">한국어</span>
+          </a>
+          <div class="jnd-drop-menu lang-drop-menu">
+            <div class="jnd-drop-option">
+              <h5 class="option-title">
+                <span class="option-txt">언어설정</span>
+              </h5>
+              <ul>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-ko" aria-hidden="true"></i>
+                  <span class="option-txt">한국어</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-en" aria-hidden="true"></i>
+                  <span class="option-txt">English</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-ja" aria-hidden="true"></i>
+                  <span class="option-txt">한국어</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-sc" aria-hidden="true"></i>
+                  <span class="option-txt">한국어</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-tc" aria-hidden="true"></i>
+                  <span class="option-txt">한국어</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="gnb-profile">
+          <a href="#">
+            <span class="gnb-img-box mgr8">
+              <img class="img-round img-user-profile"
+                   src="https://jandi-box.com/files-profile/3dc4aaa86c48c13df21d430648c247c6.jpg?size=80"
+                   alt="user profile image"/>
+            </span>
+            <span class="gnb-txt-box">maxlenthofnameis30chracters!</span>
+          </a>
+          <div class="jnd-drop-menu gnb-profile-menu">
+            <div class="jnd-drop-option">
+              <h5 class="option-title">
+                <span class="option-txt" translate>프로필</span>
+              </h5>
+              <ul class="prefix">
+                <li tabindex="0" class="option-item">
+                  <i class="prefix-icon icon-pencil" aria-hidden="true"></i>
+                  <span class="option-txt" translate>프로필 설정하기</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="prefix-icon icon-sign-out" aria-hidden="true"></i>
+                  <span class="option-txt" translate>로그아웃</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="container">
+   <div class="inner-wrap pg-sub">
+      <section class="section sub-account">
+        <header class="section-head">
+          <div class="section-path">
+            <a href="#" class="path-1"> 잔디 메인</a>
+            <i class="icon icon-angle-right fi-14"></i>
+            <a href="#" class="path-2"><strong>프로필 설정</strong></a>
+          </div>
+        </header>
+        <article class="section-body">
+          <!--dl에 '.active' click event는 btn-toggle에 주세요
+          card-mode안의 btn-toggle은 여는 것 edit-mode안의 btn-toggle은 닫는것 -->
+          <div class="acc-list">
+            <dl class="acc-pic" ng-class="{'active': true }">
+              <dt class="item-label">프로필 사진</dt>
+              <dd>
+                <div class="card-mode">
+                <div class="acc-pic-edit">
+                  <div class="img-user-profile">
+                    <img class="img"
+                         src="https://jandi-box.com/files-profile/3dc4aaa86c48c13df21d430648c247c6.jpg?size=80"
+                         alt="user profile image"/>
+                    <button class="btn-pic-edit" translate> 수정</button>
+                  </div>
+                  <div class="jnd-drop-menu acc-img-drop">
+                    <div class="jnd-drop-option">
+                      <ul class="prefix">
+                        <li tabindex="0" class="option-item">
+                          <i class="prefix-icon icon-download" aria-hidden="true"></i>
+                          <span class="option-txt">사진 올리기</span>
+                        </li>
+                        <li tabindex="0" class="option-item">
+                          <i class="prefix-icon icon-user-circle" aria-hidden="true"></i>
+                          <span class="option-txt">캐릭터 선택하기</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </dd>
+            </dl>
+            <dl class="acc-name active" ng-class="{'active': true }">
+              <dt class="item-label">이름</dt>
+              <dd>
+              <div class="card-mode">
+                <span class="information ellip-1">이름길이는30자입니다이름길이는30자입니다이름길이는30자입니다</span>
+                <button type="button" class="btn-toggle icon-angle-down"><span class="blind">Open tab</span></button>
+              </div>
+              <div class="edit-mode">
+                <form action="" method="">
+                  <div class="jnd-input-box">
+                    <input type="text" class="jnd-input" title="name"/>
+                  </div>
+                  <div class="btn-box btn-s1">
+                    <button type="button" class="btn btn-blue">
+                      <span translate>확인</span>
+                    </button>
+                    <button type="button" class="btn btn-fff">
+                      <span translate>취소</span>
+                    </button>
+                  </div>
+                </form>
+                <button type="button" class="btn-toggle icon-angle-down"><span class="blind">Close tab</span></button>
+              </div>
+              </dd>
+            </dl>
+            <dl class="acc-email">
+              <dt class="item-label">이메일 관리</dt>
+              <dd>
+                <div class="card-mode">
+                  <span class="information ellip-1">ted.kimted.kimted.kimted.kimted.kimted.kimted.kimted.kimted.kim@tosslab.com</span>
+                  <button type="button" class="btn-toggle icon-angle-down"><span class="blind">Open tab</span></button>
+                </div>
+                <div class="edit-mode">
+                <form action="" method="">
+                  <div class="fieldset">
+                    <h5 class="fieldset-label">기본 이메일 주소</h5>
+                    <p class="txt-info" translate>
+                      기본 주소를 통해 잔디 계정에 관련된 이메일들을 받아보실 수 있습니다.<br/>
+                      이메일 주소를 기본 주소 또는 팀에 사용하기 위해서는 이메일 승인 절차를 거쳐야 합니다.
+                    </p>
+                    <div class="jnd-input-box">
+                      <select title="기본 이메일 주소" class="jnd-select">
+                        <option value=""></option>
+                        <option value=""></option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="fieldset">
+                    <h5 class="fieldset-label">이메일 관리</h5>
+                    <ul class="acc-email-list">
+                      <li class="jnd-input-box has-btn">
+                        <input class="jnd-input" type="text" title="email address"/>
+                        <button type="button" class="icon icon-trash"><span class="blind">delete</span></button>
+                      </li>
+                    </ul>
+                    <button type="button" class="btn-add-email w100">이메일 추가하기</button>
+                  </div>
+                  <div class="btn-box btn-s1">
+                    <button type="button" class="btn btn-blue">
+                      <span translate>확인</span>
+                    </button>
+                    <button type="button" class="btn btn-fff">
+                      <span translate>취소</span>
+                    </button>
+                  </div>
+                </form>
+                <button type="button" class="btn-toggle icon-angle-down"><span class="blind">Close tab</span></button>
+              </div>
+              </dd>
+            </dl>
+            <dl class="acc-password">
+              <dt class="item-label">비밀번호 변경하기</dt>
+              <dd>
+                <div class="card-mode">
+                  <span class="information ellip-1">**********</span>
+                  <button type="button" class="btn-toggle icon-angle-down"><span class="blind">Open tab</span></button>
+                </div>
+                <div class="edit-mode">
+                <form action="" method="">
+                  <div class="fieldset">
+                    <h5 class="fieldset-label">비밀번호</h5>
+                    <div class="jnd-input-box">
+                      <input type="password" class="jnd-input" title="present password" required/>
+                    </div>
+                    <h5 class="fieldset-label">새 비밀번호</h5>
+                    <div class="jnd-input-box">
+                      <input type="password" class="jnd-input" title="present password" required/>
+                    </div>
+                  </div>
+                  <div class="btn-box btn-s1">
+                    <button type="button" class="btn btn-blue">
+                      <span translate>확인</span>
+                    </button>
+                    <button type="button" class="btn btn-fff">
+                      <span translate>취소</span>
+                    </button>
+                  </div>
+                </form>
+                <button type="button" class="btn-toggle icon-angle-down"><span class="blind">Close tab</span></button>
+              </div>
+              </dd>
+            </dl>
+            <dl class="acc-time">
+              <dt class="item-label">시간대 설정</dt>
+              <dd>
+                <div class="card-mode">
+                  <span class="information ellip-1">(UTC+08:00)베이징, 충칭, 홍콩, 우루무치, 쿠알라룸푸르, 싱가포르</span>
+                  <button type="button" class="btn-toggle icon-angle-down"><span class="blind">Open tab</span></button>
+                </div>
+                <div class="edit-mode">
+                <form action="" method="">
+                  <div class="jnd-input-box">
+                    <select title="time zone" class="jnd-select"></select>
+                  </div>
+                  <div class="btn-box btn-s1">
+                    <button type="button" class="btn btn-blue">
+                      <span translate>확인</span>
+                    </button>
+                    <button type="button" class="btn btn-fff">
+                      <span translate>취소</span>
+                    </button>
+                  </div>
+                </form>
+                <button type="button" class="btn-toggle icon-angle-down"><span class="blind">Close tab</span></button>
+              </div>
+              </dd>
+            </dl>
+            <dl class="acc-delete">
+              <dt class="item-label">잔디 계정 삭제</dt>
+              <dd>
+                <div class="card-mode">
+                  <button type="button" class="btn-toggle icon-angle-down"><span class="blind">Open tab</span></button>
+                </div>
+                <div class="edit-mode">
+                <p class="txt-info">잔디 계정을 삭제하면 더 이상 잔디에 남겨진 메시지 또는 파일에 접근할 수 없지만, 현재 팀 멤버들은 사용자님이 남긴 메시지 또는 파일에 계속해서
+                  접근할 수 있습니다.</p>
+                <div class="bd-box">
+                  <div class="acc-delete-research">
+                    <i class="icon icon-terms-of-service" aria-hidden="true"></i>
+                    <p class="txt1">설문을 통해 잔디를 떠나는 이유를 알려주세요.</p>
+                    <a class="btn-delete-research" href="" target="_blank">설문 참여하기</a>
+                  </div>
+                </div>
+                <button type="button" class="btn-delete-toggle fn-u-hover"><span translate>계정 삭제</span></button>
+                <div class="acc-delete-toggle">
+                  <form action="" method="">
+                    <div class="warning-box">
+                      <p class="fn-warning icon-warning-fill">
+                        잔디계정이 영구 삭제됩니다.<br/>
+                        정말로 잔디 계정 삭제를 원하신다면 계정 비밀번호를 입력해주세요.
+                      </p>
+                      <h5 class="txt-password">비밀번호</h5>
+                      <div class="jnb-input-box">
+                        <input type="password" title="password" class="jnd-input"/>
+                      </div>
+                    </div>
+                    <div class="btn-box btn-s1">
+                      <button type="submit" class="btn btn-red" disabled>잔디 계정 삭제</button>
+                      <button type="reset" class="btn btn-fff">취소</button>
+                    </div>
+                  </form>
+                </div>
+                <button type="button" class="btn-toggle icon-angle-down"><span class="blind">Close tab</span></button>
+              </div>
+              </dd>
+            </dl>
+
+          </div>
+        </article>
+      </section>
+    </div>
+  </article>
+  <footer class="footer">
+    <div class="inner-wrap clear-fix">
+      <div class="fl-l">
+        <p class="copy-right">ⓒ Toss Lab, Inc</p>
+      </div>
+      <div class="fl-r">
+        <ul class="gfm">
+          <li><a href="#" target="_blank">FAQ</a></li>
+          <li><a href="#" target="_blank">Privacy Policy</a></li>
+          <li><a href="#" target="_blank">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

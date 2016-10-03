@@ -1,0 +1,272 @@
+<!doctype html>
+<html ng-app="jandiApp" lang="ko" class="no-js">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <!--<base href="/main/">-->
+  <meta name="description" content="JANDI"/>
+  <meta name="keywords" content="JANDI, 잔디"/>
+  <meta name="author" content="TossLab"/>
+  <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+  <title>JANDI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <meta name="apple-itunes-app" content="app-id=904895208">
+
+  <meta property="og:title" content="Rediscover Teamwork"/>
+  <meta property="og:type" content="website"/>
+
+  <meta property="og:image" content="http://www.jandi.com/images/jandi-logo-facebook.png?v=2"/>
+  <meta property="og:image:secure_url" content="https://www.jandi.com/images/jandi-logo-facebook.png?v=2"/>
+
+  <meta property="og:image" content="http://www.jandi.com/images/jandi-main-facebook.png.png?v=2"/>
+  <meta property="og:image:secure_url" content="https://www.jandi.com/images/jandi-main-facebook.png.png?v=2"/>
+
+  <meta property="og:url" content="https://www.jandi.com/main/#/"/>
+
+  <meta property="og:site_name" content="JANDI"/>
+  <meta property="og:description"
+        content="JANDI is the future of group communications and information sharing. Instant, easy to use, always available – the way it was meant to be."/>
+
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:locale:alternate" content="ko_KR"/>
+  <meta property="og:locale:alternate" content="zh_TW"/>
+  <meta property="og:locale:alternate" content="zh_CN"/>
+  <meta property="og:locale:alternate" content="ja_JP"/>
+  <meta name="google-site-verification" content="hIh04duA3_Xgxe4yj1yxXgGrt08vLXbMq8GQdNq6e40"/>
+  <link type="text/css" rel="stylesheet" href="css/common/reset.css">
+  <link type="text/css" rel="stylesheet" href="css/common/style.css">
+  <link type="text/css" rel="stylesheet" href="css/common/jnd.form.css">
+  <link type="text/css" rel="stylesheet" href="css/common/jnd.tab.css">
+  <link type="text/css" rel="stylesheet" href="css/common/jnd.tooltip.css">
+  <link type="text/css" rel="stylesheet" href="css/common/jandi-icon.css">
+  <link type="text/css" rel="stylesheet" href="css/common/layout.css">
+  <link type="text/css" rel="stylesheet" href="css/main.css">
+  <link type="text/css" rel="stylesheet" href="css/common/common.css">
+  <link type="text/css" rel="stylesheet" href="css/sub.team.css">
+  <link type="text/css" rel="stylesheet" href="css/sub.team.stats.css">
+  <link type="text/css" rel="stylesheet" href="css/sub.team.member.css">
+  <link type="text/css" rel="stylesheet" href="css/sub.account.css">
+</head>
+<body id="body" ng-class="{
+  'mobile-f': false,
+  'web-f': true,
+}">
+<div class="wrap" id="wrap" ng-class="{'fade in':}">
+  <header class="header">
+    <h1 class="logo">
+      <a href="/">
+        <img src="assets/images/logo-white.svg" class="img-logo" alt="Jandi"/>
+      </a>
+    </h1>
+    <button type="button" class="btn-download">
+      <span src="assets/images/platform-logo.svg" class="bg-platform win" ng-class="{'mac':false, 'win':false}" alt="Jandi"></span>
+      <span>Download for Windows</span>
+    </button>
+    <nav class="gnb">
+      <ul class="gnb-menu">
+        <li class="gnb-lang border open">
+          <a href="#">
+            <span class="gnb-img-box mgr10">
+              <img class="img-round"
+                   src="https://jandi-box.com/files-profile/3dc4aaa86c48c13df21d430648c247c6.jpg?size=80"
+                   alt="language"/>
+            </span>
+            <span class="gnb-txt-box">한국어</span>
+          </a>
+          <div class="jnd-drop-menu lang-drop-menu">
+            <div class="jnd-drop-option">
+              <h5 class="option-title">
+                <span class="option-txt">언어설정</span>
+              </h5>
+              <ul>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-ko" aria-hidden="true"></i>
+                  <span class="option-txt">한국어</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-en" aria-hidden="true"></i>
+                  <span class="option-txt">English</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-ja" aria-hidden="true"></i>
+                  <span class="option-txt">한국어</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-sc" aria-hidden="true"></i>
+                  <span class="option-txt">한국어</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-tc" aria-hidden="true"></i>
+                  <span class="option-txt">한국어</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="gnb-profile">
+          <a href="#">
+            <span class="gnb-img-box mgr8">
+              <img class="img-round img-user-profile"
+                   src="https://jandi-box.com/files-profile/3dc4aaa86c48c13df21d430648c247c6.jpg?size=80"
+                   alt="user profile image"/>
+            </span>
+            <span class="gnb-txt-box">maxlenthofnameis30chracters!</span>
+          </a>
+          <div class="jnd-drop-menu gnb-profile-menu">
+            <div class="jnd-drop-option">
+              <h5 class="option-title">
+                <span class="option-txt" translate>프로필</span>
+              </h5>
+              <ul class="prefix">
+                <li tabindex="0" class="option-item">
+                  <i class="prefix-icon icon-pencil" aria-hidden="true"></i>
+                  <span class="option-txt" translate>프로필 설정하기</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="prefix-icon icon-sign-out" aria-hidden="true"></i>
+                  <span class="option-txt" translate>로그아웃</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="container">
+    <div class="inner-wrap pg-main">
+      <section class="section main-account">
+        <header class="section-head">
+          <h3 class="section-title">프로필</h3>
+        </header>
+        <article class="section-body">
+          <dl class="user-profile-wrap">
+            <dt class="fn-user-name">
+              <span>Ted Kimmaxlengthofnameis30chracters!</span>
+            </dt>
+            <dd class="img-user-profile">
+              <img class="img" src="https://jandi-box.com/files-profile/3dc4aaa86c48c13df21d430648c247c6.jpg?size=80"
+                   alt="user profile image"/>
+            </dd>
+            <dd>
+              <span class="fn-user-email">ted.kim@tosslab.com</span>
+            </dd>
+          </dl>
+          <button type="button" class="btn-profile-edit">
+            <i class="icon-pencil" aria-hidden="true"></i>
+            <span class="txt">프로필 설정하기</span>
+          </button>
+        </article>
+      </section>
+      <section class="section main-team">
+        <header class="section-head">
+          <h3 class="section-title">팀 리스트</h3>
+        </header>
+        <article class="section-body">
+          <ul class="main-team-list">
+            <li class="as-virgin">
+              <dl class="team-card">
+                <dt translate>잔디는 파일 공유가 손쉬운 업무용 메신저입니다.</dt>
+                <dd translate>지금 무료로 팀을 개설하셔서 훨씬 빠르고 효율적인 업무 환경을 경험해 보세요!</dd>
+              </dl>
+              <div class="btn-box btn-s1">
+                <button type="button" class="btn btn-blue">팀 생성하기</button>
+              </div>
+            </li>
+            <li class="as-invited">
+              <dl class="team-card">
+                <dt>
+                  <span class="team-name ellip-1">감남담람맘밤삼암잠참캄타감남담람맘밤삼암잠참캄타</span>
+                  <em class="red-unread-badge">999+</em>
+                </dt>
+                <dd class="team-host ellip-1">
+                  abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@gmail.com
+                </dd>
+                <dd class="team-user-email ellip-1">
+                  abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@gmail.com
+                </dd>
+                <dd class="team-img"><i class="icon-users" aria-hidden="true"></i></dd>
+              </dl>
+              <div class="btn-box btn-s1">
+                <button type="button" class="btn btn-fff">
+                  <span class="icon-delete prefix fi-14" translate>거부</span>
+                </button>
+                <button type="button" class="btn btn-blue">
+                  <span class="icon-check prefix fi-14" translate>수락</span>
+                </button>
+              </div>
+            </li>
+            <li class="as-admin">
+              <dl class="team-card">
+                <dt>
+                  <span class="team-name ellip-1">감남담람맘밤삼암잠참캄타감남담람맘밤삼암잠참캄타</span>
+                  <em class="red-unread-badge">999+</em></dt>
+                <dd class="team-host ellip-1">
+                  abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@gmail.com
+                </dd>
+                <dd class="team-user-email ellip-1">
+                  <em class="team-admin-label">팀 관리자</em>
+                  abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@gmail.com
+                </dd>
+                <dd class="team-img"><i class="icon-users" aria-hidden="true"></i></dd>
+              </dl>
+              <div class="btn-box btn-s1 rsp">
+                <button type="button" class="btn btn-fff">
+                  <span class="icon-cog-fill prefix fi-13" translate>관리자 메뉴</span>
+                </button>
+                <button type="button" class="btn btn-blue">
+                  <span translate>팀으로 가기</span>
+                </button>
+              </div>
+            </li>
+
+            <li class="as-member">
+              <dl class="team-card">
+                <dt>
+                  <span class="team-name ellip-1">감남담람맘밤삼암잠참캄타감남담람맘밤삼암잠참캄타</span>
+                  <em class="red-unread-badge">999+</em></dt>
+                <dd class="team-host ellip-1">
+                  abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@gmail.com
+                </dd>
+                <dd class="team-user-email ellip-1">
+                  abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@gmail.com
+                </dd>
+                <dd class="team-img"><i class="icon-users" aria-hidden="true"></i></dd>
+              </dl>
+              <div class="btn-box btn-s1 rsp">
+                <button type="button" class="btn btn-fff">
+                  <span translate>설정</span>
+                </button>
+                <button type="button" class="btn btn-blue">
+                  <span translate>팀으로 가기</span>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </article>
+        <button type="button" class="btn btn-create-team">
+          <i class="icon-plus fi-17 mgr10"></i><span>팀 생성하기</span>
+        </button>
+      </section>
+    </div>
+  </article>
+  <footer class="footer">
+    <div class="inner-wrap clear-fix">
+      <div class="fl-l">
+        <p class="copy-right">ⓒ Toss Lab, Inc</p>
+      </div>
+      <div class="fl-r">
+        <ul class="gfm">
+          <li><a href="#" target="_blank">FAQ</a></li>
+          <li><a href="#" target="_blank">Privacy Policy</a></li>
+          <li><a href="#" target="_blank">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

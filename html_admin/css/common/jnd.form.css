@@ -1,0 +1,94 @@
+
+.jnd-search-box {
+  position: relative;
+}
+
+.jnd-search-box .icon {
+  position: absolute;
+  display: block;
+  top: 50%;
+  text-align: center;
+}
+.jnd-search-box .icon-search {
+  left: 7px;
+  font-size: 16px;
+  margin-top: -10px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+.jnd-search-box .icon-delete {
+  cursor: pointer;
+}
+
+.jnd-search-box .loading-wheel {
+  position: absolute;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #9c9c9c #9c9c9c transparent;
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  border-radius: 50%;
+  margin-top: -8px;
+  -moz-animation: three-quarters-loader 1250ms infinite linear;
+  -webkit-animation: three-quarters-loader 1250ms infinite linear;
+  animation: three-quarters-loader 1250ms infinite linear;
+  display: none;
+}
+
+
+.jnd-search-box .jnd-input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 33px;
+}
+
+/*text, password, email 등등만 쓸것*/
+.jnd-input-box {
+  position: relative;
+  font-size: 15px;
+}
+
+.jnd-input,
+.jnd-select {
+  width: 100%;
+  border: 1px solid #d2d2d2;
+  background-color: #fff;
+  height: 35px;
+  border-radius: 3px;
+  padding: 0 11px;
+  color: #505050;
+}
+
+.jnd-input-box.has-btn .jnd-input {
+  padding-right: 28px;
+}
+.jnd-input:focus,
+.jnd-select:focus {
+  border-color: #82aed3;
+}
+.jnd-input-box .icon {
+  position: absolute;
+  display: block;
+  top: 50%;
+  right: 6px;
+  width: 22px;
+  text-align: center;
+  height: 22px;
+  line-height: 22px;
+  margin-top: -11px;
+}
+.jnd-input-box .icon-trash {
+  font-size: 0.925em;
+  color: #b4b4b4;
+}
+.jnd-input-box .icon-trash:focus,
+.jnd-input-box .icon-trash:hover {
+  color: #808080;
+}
+
+.jnd-select .jnd-option {
+
+}

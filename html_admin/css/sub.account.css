@@ -1,0 +1,231 @@
+.sub-account {
+
+}
+.sub-account .section-body {
+  border: 1px solid #d7e1e6;
+  box-shadow: 0 1px 3px 0 rgba(17, 71, 111, 0.15);
+  background: #fff;
+  padding: 18px 32px;
+}
+
+.acc-list > dl {
+  position: relative;
+  background-color: #fff;
+  box-sizing: content-box;
+  margin-top: -1px;
+  border-width: 1px 0;
+  border-color: rgba(215,225,230, 0.6);
+  border-style: solid;
+  display: table;
+  width:100%;
+  table-layout: fixed;
+  cursor: pointer;
+}
+.acc-list > dl:first-child {
+  border-width: 0 0 1px 0;
+  margin-top: 0;
+}
+.acc-list > dl:hover,
+.acc-list > dl.on {
+  background-color: #fafafb;
+  z-index: 1;
+}
+.acc-list > dl > dt {
+  display:table-cell;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  padding: 25px 0 25px 15px;
+  vertical-align: top;
+}
+.acc-list > dl > dd {
+  display:table-cell;
+  padding: 22px 60px 14px 0;
+  width: 490px;
+}
+
+.acc-list > dl .edit-mode {
+  display: none;
+}
+.acc-list > dl.active .card-mode {
+  display: none;
+}
+.acc-list > dl.active .edit-mode {
+  display: block;
+}
+.acc-list > dl .btn-toggle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  color: #11476f;
+}
+
+.acc-list > dl .btn-toggle::before {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+
+.acc-list > dl .edit-mode .btn-toggle::before {
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.acc-list > dl .btn-box {
+  margin-top: 12px;
+}
+
+.acc-list > dl .card-mode .information {
+  display: block;
+  margin-top:3px;
+  font-size: 15px;
+  color: #505050;
+}
+.acc-list > dl .edit-mode form {
+  position: relative;
+  z-index: 1;
+}
+.acc-pic .acc-pic-edit {
+  width: 48px;
+  position: relative;
+}
+.acc-pic .img-user-profile {
+  position: relative;
+  width: 46px;
+  height: 46px;
+}
+.acc-pic .btn-pic-edit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0,0,0,0.3);
+  font-size: 15px;
+  opacity: 0;
+}
+
+.acc-pic .btn-pic-edit:focus {
+  opacity: 1;
+}
+.acc-pic .img-user-profile:hover .btn-pic-edit {
+  opacity: 1;
+}
+.acc-img-drop {
+  top: 9px;
+  left: 42px;
+}
+
+.acc-email {
+
+}
+
+.acc-list .fieldset {
+  border-bottom: 1px solid #d7e1e6;
+  padding: 18px 0;
+}
+.acc-list .fieldset:first-child {
+  padding-top: 0;
+}
+
+.acc-list .fieldset .fieldset-label {
+  font-size: 15px;
+  font-weight: 700;
+  color: #333;
+  padding-bottom: 8px;
+  margin-top: 24px;
+}
+.acc-list .fieldset .fieldset-label:first-of-type {
+  margin-top: 0;
+}
+.acc-list .txt-info {
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.4em;
+}
+
+.acc-email .txt-info {
+  padding: 4px 0 14px;
+}
+
+.acc-email .acc-email-list > li {
+  margin-top: 6px;
+}
+.acc-email .acc-email-list > li:first-child {
+  margin-top: 0;
+}
+.acc-email .btn-add-email {
+  background-color: #fff;
+  color: #11476f;
+  font-weight: 700;
+  font-size: 15px;
+  border: 1px solid #d2d2d2;
+  padding: 0 10px;
+  height: 35px;
+  margin-top: 6px;
+}
+.acc-email .btn-add-email:hover,
+.acc-email .btn-add-email:focus {
+  border-color: rgba(122,142,156,0.7);
+}
+.acc-delete .bd-box {
+  margin: 15px 0;
+  padding: 15px 0;
+  border-color:#e1e1e1;
+  border-width: 1px 0;
+  border-style: solid;
+}
+.acc-delete .acc-delete-research {
+  position: relative;
+  padding-left: 42px;
+}
+.acc-delete .acc-delete-research .icon {
+  color: #154968;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -15px
+}
+
+.acc-delete .acc-delete-research .txt1 {
+  color: #333;
+  padding-bottom: 10px;
+  margin: 0
+}
+.acc-delete .acc-delete-research .btn-delete-research {
+  border: 1px solid #154968;
+  padding: 2px 15px;
+  border-radius: 12px;
+  color: #154968;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #fefefe;
+  font-weight: 600;
+}
+.acc-delete .acc-delete-research .btn-delete-research:focus,
+.acc-delete .acc-delete-research .btn-delete-research:hover {
+  background-color: #728faf;
+  color: #fff;
+  outline: none;
+}
+.acc-delete .txt-password {
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+.acc-delete .jnd-input:focus {
+  box-shadow: 0 0 5px #d1d1d1;
+  border-color: #e1e1e1;
+}
+.acc-delete .btn-delete-toggle {
+
+}
+.acc-delete .acc-delete-toggle {
+  padding-top: 14px;
+}

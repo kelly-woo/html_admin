@@ -1,0 +1,139 @@
+.team-mmb-search {
+  padding: 12px 0 30px;
+}
+.team-mmb-search > li:first-child {
+  padding-right: 5px;
+}
+.team-mmb-search > li:last-child {
+  padding-left: 5px;
+}
+.team-mmb-view {
+  padding-bottom: 18px;
+}
+.team-mmb-list > li {
+  border-top: none;
+  position: relative;
+}
+
+.team-mmb-list > li.no-res {
+  font-size: 14px;
+  color: #a2acb4;
+  text-align: center;
+  padding: 31px 10px 32px;
+}
+
+.team-mmb-list > li::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 104px;
+  right: 32px;
+  border-top: 1px solid rgba(215,225,230, 0.6);
+}
+
+.team-mmb-list > li:first-child::before {
+  left: 0;
+  right: 0;
+}
+
+.team-mmb-list > li.on::before {
+  border-top-color:#d7dce6;
+  left: 0;
+  right: 0;
+}
+
+.team-mmb-list > li.on + li::before {
+  border-top-color: transparent;
+}
+
+.team-mmb-list .mmb-item {
+  padding: 22px 50px 20px 104px;
+  position: relative;
+}
+
+.team-mmb-list .mmb-item > dt {
+  line-height: 22px;
+}
+
+.team-mmb-list .mmb-info {
+  border-bottom: 1px solid #d7dce6;
+  border-top: 1px solid #f0f2f2;
+  background-color: #fafbfb;
+  padding: 12px 32px;
+  position: relative;
+  text-align: right;
+  display: none;
+}
+
+.team-mmb-list > li.on .mmb-info {
+  display: block;
+}
+
+.team-mmb-list > li.admin .mmb-info {
+  font-size: 15px;
+  font-weight: 700;
+  color: #11476f;
+  line-height: 35px;
+
+}
+
+.team-mmb-list .mmb-info .btn-member {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+  color: #11476f;
+  border: 1px solid #d7dce6;
+  padding: 8px 10px;
+  border-radius: 3px;
+  background-color:#fff;
+}
+
+.team-mmb-list .mmb-info .btn-member:hover,
+.team-mmb-list .mmb-info .btn-member:focus {
+  border-color: #b9c3cd;
+}
+
+.team-mmb-list .mmb-item .fn-user-name {
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-block;
+  max-width: calc(100% - 100px);
+  padding-right: 5px;
+  vertical-align: top;
+}
+.team-mmb-list .mmb-item .fn-user-email {
+  font-size: 13px;
+  color: #999;
+  margin-top: 3px;
+}
+.team-mmb-list .mmb-item .img-user-profile {
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  top: 16px;
+  left: 44px;
+}
+.team-mmb-list .mmb-item .btn-toggle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  text-align: right;
+}
+.team-mmb-list .mmb-item .btn-toggle .icon {
+  position: absolute;
+  top: 50%;
+  font-size: 14px;
+  margin-top: -7px;
+  right: 42px;
+  color: #8f969b;
+}
+.team-mmb-list > li.on .mmb-item .btn-toggle .icon {
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}

@@ -1,0 +1,297 @@
+/*jnd-tooltip-default
+
+
+
+*/
+
+.jnd-tooltip-toggle{
+  cursor:pointer;
+}
+.jnd-tooltip-toggle:hover .jnd-tooltip {
+  display: block;
+}
+
+.jnd-tooltip {
+  position: absolute;
+  z-index: 99;
+  background: transparent;
+  border-color: #eee;
+  border-width: 0;
+  display: none;
+  word-wrap: break-word;
+  word-break: keep-all;
+}
+
+.jnd-tooltip .tooltip-desc {
+  position: relative;
+  background: #fff;
+  border-style: solid;
+  border-color: inherit;
+  border-width: 1px;
+  padding: 10px;
+  margin: 0;
+  border-radius: 4px;
+}
+
+.jnd-tooltip .tooltip-desc:after {
+  content: " ";
+  position: absolute;
+  display: block;
+  background-color: inherit;
+  width: 8px;
+  height: 8px;
+  border-style: inherit;
+  border-color: inherit;
+  border-width: 1px 0 0 1px;
+}
+
+/***tooltip-location***/
+/*top-left*/
+.jnd-tooltip.t-l {
+  bottom: 100%;
+  left: 0;
+  padding-bottom: 9px;
+}
+.jnd-tooltip.t-l .tooltip-desc:after {
+  bottom: -4px;
+  left: 20px;
+  -ms-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+/*top-center*/
+.jnd-tooltip.t-c {
+  bottom: 100%;
+  left: 50%;
+  padding-bottom: 9px;
+  -ms-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+
+}
+.jnd-tooltip.t-c .tooltip-desc:after {
+  bottom: -4px;
+  left: 50%;
+  margin-left: -4px;
+  -ms-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+/*top-right*/
+.jnd-tooltip.t-r {
+  bottom: 100%;
+  right: 0;
+  padding-bottom: 9px
+}
+.jnd-tooltip.t-r .tooltip-desc:after {
+  bottom: -4px;
+  right: 20px;
+  -ms-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+/*bottom-left*/
+.jnd-tooltip.b-l {
+  top: 100%;
+  left: 0;
+  padding-top: 9px;
+}
+.jnd-tooltip.b-l .tooltip-desc:after {
+  top: -4px;
+  left: 20px;
+  -ms-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*bottom-center*/
+.jnd-tooltip.b-c {
+  top: 100%;
+  left: 50%;
+  -ms-transform: translate(-50%, 5px);
+  -moz-transform: translate(-50%, 5px);
+  -o-transform: translate(-50%, 5px);
+  -webkit-transform: translate(-50%, 5px);
+  transform: translate(-50%, 5px);
+  padding-top: 9px;
+}
+.jnd-tooltip.b-c .tooltip-desc:after {
+  top: -4px;
+  left: 50%;
+  margin-left: -4px;
+  -ms-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*bottom-right*/
+.jnd-tooltip.b-r {
+  top: 100%;
+  right: 0;
+  padding-top: 9px;
+}
+.jnd-tooltip.b-r .tooltip-desc:after {
+  top: -4px;
+  right: 20px;
+  -ms-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*left-top*/
+.jnd-tooltip.l-t {
+  right: 100%;
+  top: 0;
+  padding-right: 12px;
+  display: inline-block
+}
+.jnd-tooltip.l-t .tooltip-desc:after {
+  right: -4px;
+  top: 15px;
+  -ms-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+/*left-center*/
+.jnd-tooltip.l-c {
+  right: 100%;
+  top: 50%;
+  padding-right: 12px;
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  display: inline-block
+}
+.jnd-tooltip.l-c .tooltip-desc:after {
+  right: -4px;
+  top: 50%;
+  margin-top: -4px;
+  -ms-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+/*left-bottom*/
+.jnd-tooltip.l-b {
+  right: 100%;
+  bottom: 0;
+  padding-right: 12px;
+  display: inline-block
+}
+.jnd-tooltip.l-b .tooltip-desc:after {
+  right: -4px;
+  bottom: 15px;
+  -ms-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+/*right-top*/
+.jnd-tooltip.r-t {
+  left: 100%;
+  top: 0;
+  padding-left: 12px;
+  display: inline-block
+}
+.jnd-tooltip.r-t .tooltip-desc:after {
+  left: -4px;
+  top: 15px;
+  -ms-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/*right-center*/
+.jnd-tooltip.r-c {
+  min-width: 100px;
+  left: 100%;
+  top: 50%;
+  padding-left: 12px;
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: inline-block
+}
+.jnd-tooltip.r-c .tooltip-desc:after {
+  left: -4px;
+  top: 50%;
+  margin-top: -4px;
+  -ms-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/*right-bottom*/
+.jnd-tooltip.r-b {
+  left: 100%;
+  bottom: 0;
+  padding-left: 12px;
+  display: inline-block
+}
+.jnd-tooltip.r-b .tooltip-desc:after {
+  left: -4px;
+  bottom: 15px;
+  -ms-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/***tooltip-colors****/
+.jnd-tooltip.tooltip-red {
+  border-color: #e1bdbc;
+  color: #b33b21
+}
+
+.jnd-tooltip.tooltip-red .tooltip-desc {
+  background: #f2dede;
+}
+
+.jnd-tooltip.tooltip-blue {
+  border-color: #008dbe;
+  color: #fff
+}
+
+.jnd-tooltip.tooltip-blue .tooltip-desc {
+  background: #00abe6;
+}
+
+.jnd-tooltip.tooltip-black {
+  border-color: #000;
+  color: #fff
+}
+
+.jnd-tooltip.tooltip-black .tooltip-desc {
+  background: #000;
+}

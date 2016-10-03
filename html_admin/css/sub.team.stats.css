@@ -1,0 +1,364 @@
+.team-stats {
+  margin-top: -12px;
+}
+
+.team-plan-banner {
+  padding: 18px 20px 16px;
+  background-color: #a2c617;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+  font-size: 15px;
+  color: #fff;
+  margin: 12px 0 3px;
+  min-height: 100px;
+  overflow: hidden;
+}
+
+.team-plan-banner strong {
+  font-weight: 700;
+}
+
+.team-plan-banner .txt1 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+/* 안내영역 FREE PLAN 텍스트에도 레이블 스타일 적용 */
+.team-plan-banner .txt1 b {
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+  vertical-align: bottom;
+  padding: 0 4px;
+  border-radius: 3px;
+  color: #8cad0C;
+  display: inline-block;
+}
+.team-plan-banner .txt1 b:lang(ko),
+.team-plan-banner .txt1 b:lang(ja) {
+  margin-right: .2em;
+}
+.team-plan-banner .txt1.icon-info-fill:before {
+  margin-right: 0.25em;
+  font-weight: 100;
+  font-size: 14px;
+  display: inline-block;
+  transform: translateY(1px);
+}
+
+.team-plan-banner .txt1 .txt-label {
+  background: #fff;
+  color: #81ad09;
+  border-radius: 2px;
+  padding: 2px 4px;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: text-top;
+  margin: 0 4px 0 6px;
+}
+
+.team-plan-banner .txt2 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  float: left;
+  display: inline-block;
+  max-width: 380px;
+}
+.team-plan-banner .txt2:lang(ja) {
+  word-break: break-all;
+  max-width: 25em;
+}
+
+.team-plan-banner .btn-like-link {
+  display: inline-block;
+  float: right;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  height: 37px;
+  line-height: 34px;
+  padding: 0 32px 0 12px;
+  font-weight: 700;
+  color: inherit;
+  background-color: rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.team-plan-banner .btn-like-link:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: #81ad09;
+}
+
+.team-plan-banner .btn-like-link .icon {
+  right: 10px;
+  position: absolute;
+  top: 0px;
+}
+
+.team-stats-item {
+  border-top: 1px solid #e8eaec;
+  padding: 25px 19px 25px 65px;
+}
+
+.team-stats-item.storage {
+  border-top: none;
+}
+
+.team-stats-item:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.team-stats-item .stats-head {
+  height: 40px;
+  position: relative;
+  float: left;
+}
+
+.team-stats-item.messages .stats-head {
+  height: 40px;
+  line-height: 41px;
+}
+
+.stats-head .stats-icon {
+  position: absolute;
+  text-align: center;
+  display: block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  background-color: #f4f5f7;
+  border-radius: 50%;
+  top: 0;
+  margin-right: 15px;
+  right: 100%;
+  color: #a1a9bb;
+  font-size: 19px;
+}
+
+.stats-head .stats-title {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.stats-head  .stats-total {
+  font-size: 13px;
+  line-height: 24px;
+  color: #b5b5b5
+}
+
+.stats-head  .stats-total .num {
+  color: #a1a1a1;
+}
+
+.team-stats-item .stats-body {
+  float: right;
+  width: 380px;
+}
+
+.stats-indicator {
+  text-align: right;
+  font-size: 18px;
+  vertical-align: bottom;
+  line-height: 1.1em;
+  margin-bottom: 5px;
+  color: #00ace9;
+}
+
+.stats-indicator .stats-help {
+  display: inline-block;
+  position: relative;
+  margin-left: 5px;
+}
+
+.stats-indicator .stats-help:before {
+  font-size: 14px;
+  color: rgba(54, 100, 128, 0.4);
+}
+
+.stats-indicator .stats-help:hover:before {
+  color: rgba(54, 100, 128, 0.7);
+}
+.stats-indicator strong,
+.stats-indicator i {
+  font-weight: inherit;
+  font-style: inherit;
+  color: inherit;
+}
+
+.stats-indicator  .used-amount {
+  font-size: 28px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.stats-indicator  .txt-unit {
+  margin-left: 0.12em;
+}
+
+.stats-indicator  .used-amount .txt-unit {
+  font-size: 21px;
+}
+
+.stats-indicator .limited-amount {
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.stats-indicator .limited-amount .txt-unit {
+  font-size: 14px;
+}
+
+.stats-indicator .txt-divider {
+  font-weight: 400;
+  color: #808080;
+}
+
+.stats-graph {
+  height: 6px;
+  border-radius: 4px;
+  background-color: #e6ebf1;
+  overflow: hidden;
+}
+
+.stats-graph .graph-needle {
+  height: 100%;
+  display: block;
+  width: 0%;
+  border-radius: 4px;
+  background-color: #00ace9;
+  transition: width ease-in-out .5s;
+}
+s
+.team-standard .stats-body .graph-needle {
+  width: 100%;
+}
+
+.stats-body.okay .graph-needle {
+  background-color: #f39000;
+}
+
+.stats-body.okay .stats-indicator {
+  color: #f39000;
+}
+
+.stats-body.warn .graph-needle {
+  background-color: #e94e24 !important;
+}
+
+.stats-body.warn .stats-indicator {
+  color: #e94e24 !important;
+}
+
+/*connect*/
+.team-connect .team-stats-item {
+  padding-bottom: 16px;
+}
+
+.stats-connect-list {
+  float: right;
+  width: 380px;
+  margin-top: -11px;
+}
+
+.stats-connect-list .border-box {
+  margin-left: 4px;
+  border: 1px solid #e8eaec;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  cursor: default;
+}
+
+.stats-connect-list .bg-box {
+  height: 48px;
+  width: 48px;
+  margin: 0 auto;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.stats-connect-list .bg-box > img {
+  width: 100%;
+  background-color: #fff;
+  visibility: hidden;
+}
+
+.stats-connect-list > li.active .bg-box > img{
+  visibility: visible;
+}
+
+/*image icon for each connect*/
+.stats-google .bg-box {
+  background-image: url(../assets/images/connect/connect_google_calendar_dim.png);
+}
+.stats-github .bg-box {
+  background-image: url(../assets/images/connect/connect_github_dim.png);
+}
+.stats-jira .bg-box {
+  background-image: url(../assets/images/connect/connect_jira_dim.png);
+}
+.stats-trello .bg-box {
+  background-image: url(../assets/images/connect/connect_trello_dim.png);
+}
+.stats-webhook .bg-box {
+  background-image: url(../assets/images/connect/connect_webhook_dim.png);
+}
+
+.stats-connect-list .blue-count-badge {
+  display: inline-block;
+  background-color: #dde2e9;
+  color: #fff;
+  line-height: 20px;
+  font-weight: 700;
+  padding: 0 10px;
+  border-radius: 12px;
+  height: 20px;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.stats-connect-list .active .blue-count-badge {
+  background-color: #00ace9;
+}
+
+/*tooltip*/
+.team-stats-item .jnd-tooltip {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.team-stats-item .jnd-tooltip .tooltip-desc {
+  padding: 6px 12px;
+}
+
+.team-stats-item .jnd-tooltip em {
+  font-weight: 700;
+}
+
+.team-stats-item .stats-help .jnd-tooltip {
+  min-width: 210px;
+  right: -17px;
+  text-align: center;
+}
+
+.team-stats-item .stats-connect-list .jnd-tooltip {
+  margin-bottom: -6px;
+}
+.team-stats-item .stats-connect-list .jnd-tooltip  .tooltip-desc {
+  padding: 6px 8px;
+  min-width: 60px;
+  max-width: 100%;
+}
+
+.stats-update-info {
+  background-color: #f8fafd;
+  color: #a2acb4;
+  margin-bottom: -12px;
+  text-align: center;
+  padding: 12px;
+}

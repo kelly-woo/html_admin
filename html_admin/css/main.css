@@ -1,0 +1,190 @@
+/*main*/
+.main-account {
+  padding-bottom: 6px;
+}
+.main-account .user-profile-wrap {
+  position: relative;
+  height: 48px;
+  margin-right: 180px;
+  padding-left: 70px;
+}
+
+.main-account .img-user-profile {
+  box-sizing: content-box;
+  width: 48px;
+  height: 100%;
+  border: 1px solid #e8eaec;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.main-account .fn-user-name {
+  font-size: 21px;
+  line-height: 1.35em;
+}
+.main-account .fn-user-email {
+  color: #9aadba;
+}
+
+.main-account .btn-profile-edit {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(122, 142, 156, 0.7);
+}
+.main-account .btn-profile-edit .icon {
+
+}
+.main-account .btn-profile-edit .txt {
+  font-weight: 700;
+}
+.main-account .btn-profile-edit:focus,
+.main-account .btn-profile-edit:hover {
+  color: rgba(122, 142, 156, 1);
+}
+.main-account .btn-profile-edit:focus .txt,
+.main-account .btn-profile-edit:hover .txt {
+  text-decoration: underline;
+}
+.main-team {
+  color: rgba(122, 142, 156, 1);
+}
+.main-team .btn-create-team {
+  text-align: center;
+  margin-top: 6px;
+  background-color: #eff6fb;
+  border: 1px solid #e7f1f8;
+  color: #7a8e9c;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 34px 0 36px
+}
+.main-team .btn-create-team:focus,
+.main-team .btn-create-team:hover {
+  background-color: #e7f1f8;
+}
+.main-team-list > li {
+  border-radius: 3px;
+  border: 1px solid #d7e1e6;
+  box-shadow: 0 1px 3px 0 rgba(17,71,111, 0.15);
+  background-color: #fff;
+  margin-top: 6px;
+  position: relative;
+  padding: 20px 30px 20px 67px;
+}
+
+.main-team-list .team-card {
+  position: relative;
+  font-size: 13px;
+}
+.main-team-list .team-card > dt {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #153c51;
+}
+.main-team-list .team-card > dt .team-name {
+  display: inline-block;
+  max-width: calc( 100% - 50px );
+  cursor: pointer;
+  vertical-align: top;
+}
+.main-team-list .team-card > dt .red-unread-badge {
+  margin-top: 1px;
+  margin-left: 3px;
+}
+.main-team-list .team-card .team-host {
+  color: rgba(122,146,156, 0.8);
+  text-decoration: underline;
+  margin-top: 3px;
+  margin-bottom: 11px;
+}
+.main-team-list .team-card .team-admin-label {
+  height: 21px;
+  line-height: 21px;
+  padding:3px 9px;
+  margin-right: 5px;
+  background-color: rgba(183, 199, 212, 0.3);
+}
+.main-team-list .team-card .team-user-email {
+  line-height: 21px;
+  height: 21px;
+}
+
+.main-team-list .team-card .team-img {
+  position: absolute;
+  left: -39px;
+  top: 3px
+}
+
+.main-team-list .team-card .team-img .icon-users {
+  font-size: 22px;
+  color: #153c51;
+}
+
+.main-team-list .btn-box {
+
+}
+.main-team-list .btn-box.rsp {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.main-team-list .as-member .team-card {
+  width: 424px;
+}
+
+.main-team-list .as-admin .team-card {
+  width:424px;
+}
+
+.main-team-list > li:first-child {
+  margin-top: -13px;
+}
+/*ad-virgin*/
+.main-team-list .as-virgin {
+  padding: 46px 24px 42px 394px;
+  text-align: center;
+  background:#fff url(../assets/images/bg_welcome.png)  48px center no-repeat;
+  background-size: 322px auto;
+  min-height: 300px;
+}
+
+.main-team-list .as-virgin .team-card > dt {
+  font-size: 28px;
+  line-height: 38px;
+  margin-bottom: 15px;
+}
+.main-team-list .as-virgin .team-card > dd {
+  font-size: 15px;
+  line-height: 22px;
+  color: #5b6e78;
+}
+.main-team-list .as-virgin .btn-box {
+  margin-top: 43px;
+}
+
+.main-team-list .as-invited {
+  border: 1px dashed #c0d2df;
+  background-color: transparent;
+  box-shadow: none;
+}
+.main-team-list .as-invited .btn-box {
+  margin-top: 12px;
+}
+
+.main-team-list .as-admin {
+
+}
+
+.main-team-list .as-member {
+}
+
+.main-team-list .as-invited + li:not(.as-invited) {
+  margin-top: 8px;
+}

@@ -1,0 +1,28 @@
+.jnd-tab {
+  position: relative;
+}
+.jnd-tab .tab-nav {
+  position: absolute;
+  width: 100%;
+  bottom: 100%;
+  margin: 0;
+}
+.jnd-tab .tab-index {
+
+}
+.jnd-tab .tab-index > li {
+  float: left;
+}
+.jnd-tab .tab-index > li:first-child {
+  margin-left: 0;
+}
+.jnd-tab .tab-stage {
+  overflow: hidden;
+}
+
+.jnd-tab .tab-page {
+  display: none;
+}
+.jnd-tab .tab-page.active {
+  display: block;
+}

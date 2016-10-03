@@ -1,0 +1,173 @@
+html {
+  min-width:780px;
+}
+body {
+  background-color: #f7fbfe;
+}
+.inner-wrap {
+  width: 780px;
+  margin: 0 auto;
+}
+
+/*header*/
+.header {
+  position: relative;
+  height: 60px;
+  padding: 13px 20px 14px 154px;
+  background-color: #11476f;
+  line-height: 33px;
+}
+
+.header .logo {
+  position: absolute;
+  left: 17px;
+  top: 13px;
+}
+
+.header .logo .img-logo {
+  height: 30px;
+}
+
+.header .btn-download {
+  background-color: #fff;
+  color: #11476f;
+  border-radius: 3px;
+  font-weight: 700;
+  height: 33px;
+  padding:0 17px 0 45px;
+  position: relative;
+}
+
+.header .btn-download:hover,
+.header .btn-download:focus {
+  background-color: #f8f9fd;
+}
+
+.header .btn-download .bg-platform {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  margin-top: -11px;
+  height: 22px;
+  width: 22px;
+  display:block;
+}
+
+.gnb {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #fff;
+}
+.gnb-menu {
+
+}
+
+.gnb-menu > li {
+  float: left;
+  margin-left: 1px;
+  border-radius: 3px;
+}
+
+.gnb-menu > li.open,
+.gnb-menu > li:hover {
+  background-color:#0d3b5c;
+}
+
+.gnb-menu > li > a {
+  display: block;
+  height: 38px;
+  line-height: 38px;
+  padding:0 12px 0 11px;
+  position: relative;
+}
+
+.gnb-menu > li.border > a:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  right: -1px;
+  width: 1px;
+  height: 22px;
+  top: 50%;
+  margin-top: -11px;
+  background-color:rgba(255,255,255,0.15);
+}
+
+.gnb-menu .gnb-img-box {
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.gnb-menu .gnb-img-box > img{
+  width: 100%;
+  vertical-align: top;
+}
+.gnb .jnd-drop-menu {
+  margin-left: -3px;
+}
+
+
+.container {
+  position: absolute;
+  top: 60px;
+  bottom: 64px;
+  left: 0;
+  right: 0;
+  padding-bottom: 20px;
+  overflow-y: auto;
+}
+.section {
+  padding-top: 24px;
+}
+
+.section-head {
+  line-height: 18px;
+  font-size: 14px;
+  color: rgba(122, 142, 156, 1);
+  margin-bottom: 16px;
+}
+.section-title {
+  font-weight: 700;
+  text-indent: 4px;
+}
+
+.section-path .path-1 {
+  color: rgba(122, 142, 156, 0.7);
+}
+
+.section-path .icon {
+  font-size: 14px;
+}
+
+
+.section-body {
+  position: relative;
+}
+.footer {
+  padding:24px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: inherit;
+  color: #7e97ab;
+  font-size: 14px;
+}
+.footer .copy-right {
+  margin-left: 34px;
+}
+.footer .gfm {
+  margin-right: 42px;
+}
+
+.footer .gfm > li {
+  float: left;
+  margin-left: 36px;
+}
+.footer .gfm > li:hover > a {
+  color: #57778d;
+  text-decoration: underline;
+}

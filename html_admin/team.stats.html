@@ -1,0 +1,378 @@
+<!doctype html>
+<html ng-app="jandiApp" lang="ko" class="no-js">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <!--<base href="/main/">-->
+  <meta name="description" content="JANDI"/>
+  <meta name="keywords" content="JANDI, 잔디"/>
+  <meta name="author" content="TossLab"/>
+  <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+  <title>JANDI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <meta name="apple-itunes-app" content="app-id=904895208">
+
+  <meta property="og:title" content="Rediscover Teamwork"/>
+  <meta property="og:type" content="website"/>
+
+  <meta property="og:image" content="http://www.jandi.com/images/jandi-logo-facebook.png?v=2"/>
+  <meta property="og:image:secure_url" content="https://www.jandi.com/images/jandi-logo-facebook.png?v=2"/>
+
+  <meta property="og:image" content="http://www.jandi.com/images/jandi-main-facebook.png.png?v=2"/>
+  <meta property="og:image:secure_url" content="https://www.jandi.com/images/jandi-main-facebook.png.png?v=2"/>
+
+  <meta property="og:url" content="https://www.jandi.com/main/#/"/>
+
+  <meta property="og:site_name" content="JANDI"/>
+  <meta property="og:description"
+        content="JANDI is the future of group communications and information sharing. Instant, easy to use, always available – the way it was meant to be."/>
+
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:locale:alternate" content="ko_KR"/>
+  <meta property="og:locale:alternate" content="zh_TW"/>
+  <meta property="og:locale:alternate" content="zh_CN"/>
+  <meta property="og:locale:alternate" content="ja_JP"/>
+  <meta name="google-site-verification" content="hIh04duA3_Xgxe4yj1yxXgGrt08vLXbMq8GQdNq6e40"/>
+  <link type="text/css" rel="stylesheet" href="css/common/reset.css">
+  <link type="text/css" rel="stylesheet" href="css/common/style.css">
+  <link type="text/css" rel="stylesheet" href="css/common/jnd.form.css">
+  <link type="text/css" rel="stylesheet" href="css/common/jnd.tab.css">
+  <link type="text/css" rel="stylesheet" href="css/common/jnd.tooltip.css">
+  <link type="text/css" rel="stylesheet" href="css/common/jandi-icon.css">
+  <link type="text/css" rel="stylesheet" href="css/common/layout.css">
+  <link type="text/css" rel="stylesheet" href="css/common/common.css">
+  <link type="text/css" rel="stylesheet" href="css/sub.team.css">
+  <link type="text/css" rel="stylesheet" href="css/sub.team.stats.css">
+  <link type="text/css" rel="stylesheet" href="css/sub.team.member.css">
+  <link type="text/css" rel="stylesheet" href="css/sub.account.css">
+</head>
+<body id="body" ng-class="{
+  'mobile-f': false,
+  'web-f': true,
+}">
+<div class="wrap" id="wrap" ng-class="{'fade in':}">
+  <header class="header">
+    <h1 class="logo">
+      <a href="/">
+        <img src="assets/images/logo-white.svg" class="img-logo" alt="Jandi"/>
+      </a>
+    </h1>
+    <button type="button" class="btn-download">
+      <span src="assets/images/platform-logo.svg" class="bg-platform win" ng-class="{'mac':false, 'win':false}" alt="Jandi"></span>
+      <span>Download for Windows</span>
+    </button>
+    <nav class="gnb">
+      <ul class="gnb-menu">
+        <li class="gnb-lang border open">
+          <a href="#">
+            <span class="gnb-img-box mgr10">
+              <img class="img-round"
+                   src="https://jandi-box.com/files-profile/3dc4aaa86c48c13df21d430648c247c6.jpg?size=80"
+                   alt="language"/>
+            </span>
+            <span class="gnb-txt-box">한국어</span>
+          </a>
+          <div class="jnd-drop-menu lang-drop-menu">
+            <div class="jnd-drop-option">
+              <h5 class="option-title">
+                <span class="option-txt">언어설정</span>
+              </h5>
+              <ul>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-ko" aria-hidden="true"></i>
+                  <span class="option-txt">한국어</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-en" aria-hidden="true"></i>
+                  <span class="option-txt">English</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-ja" aria-hidden="true"></i>
+                  <span class="option-txt">한국어</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-sc" aria-hidden="true"></i>
+                  <span class="option-txt">한국어</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="bg-flag flag-tc" aria-hidden="true"></i>
+                  <span class="option-txt">한국어</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="gnb-profile">
+          <a href="#">
+            <span class="gnb-img-box mgr8">
+              <img class="img-round img-user-profile"
+                   src="https://jandi-box.com/files-profile/3dc4aaa86c48c13df21d430648c247c6.jpg?size=80"
+                   alt="user profile image"/>
+            </span>
+            <span class="gnb-txt-box">maxlenthofnameis30chracters!</span>
+          </a>
+          <div class="jnd-drop-menu gnb-profile-menu">
+            <div class="jnd-drop-option">
+              <h5 class="option-title">
+                <span class="option-txt" translate>프로필</span>
+              </h5>
+              <ul class="prefix">
+                <li tabindex="0" class="option-item">
+                  <i class="prefix-icon icon-pencil" aria-hidden="true"></i>
+                  <span class="option-txt" translate>프로필 설정하기</span>
+                </li>
+                <li tabindex="0" class="option-item">
+                  <i class="prefix-icon icon-sign-out" aria-hidden="true"></i>
+                  <span class="option-txt" translate>로그아웃</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="container">
+    <div class="inner-wrap pg-sub">
+      <section class="section sub-team">
+        <header class="section-head">
+          <div class="section-path">
+            <a href="#" class="path-1">잔디 메인</a>
+            <i class="icon icon-angle-right"></i>
+            <a href="#" class="path-2"><strong>관리자 메뉴</strong></a>
+          </div>
+        </header>
+        <article class="section-body free-plan" ng-class="{'free-plan':true,'standard-plan':false}">
+          <div class="team-head">
+            <h3 class="team-title">
+              <i class="icon icon-users" aria-hidden="true"></i>
+              <strong class="team-name ellip-1">팀이름에는 최대 20자까지입력이 가능합니다.</strong>
+              <em class="plan-label standard">STANDARD</em>
+              <em class="plan-label free">Free</em>
+            </h3>
+            <a href="#" class="team-host ellip-1">dddddd</a>
+            <button type="button" class="btn btn-blue btn-s1 btn-team-link">팀으로 가기</button>
+          </div>
+          <div class="jnd-tab team-board">
+            <nav class="tab-nav">
+              <ul class="tab-index">
+                <li class="active">
+                  <a class="tab-link" href="#tab_1" title="open tab">
+                    <span class="txt off">팀 사용량</span>
+                    <span class="txt on">팀 사용량</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="tab-link" href="#" title="open tab">
+                    <span class="txt off">멤버 관리</span>
+                    <span class="txt on">멤버 관리</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="tab-link" href="#" title="open tab">
+                    <span class="txt off">팀 관리</span>
+                    <span class="txt on">팀 관리</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="tab-link" href="#" title="open tab">
+                    <span class="txt off">개인 설정</span>
+                    <span class="txt on">개인 설정</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <section class="tab-stage">
+              <article class="tab-page team-stats active" ng-class="{'active':true }">
+                <h3 class="tab-title blind">팀 사용량</h3>
+                <div class="pad-box">
+                  <div class="team-free">
+                    <div class="team-plan-banner">
+                      <p class="txt1 icon-info-fill" translate>
+                        <span>You are currently using the </span>
+                        <b class="ng-scope">FREE PLAN</b>.
+                      </p>
+                      <span class="txt2">Experience unlimited storage and searchable
+                        messages by upgrading your plan.Experience unlimited storage and searchable
+                        messages by upgrading your plan.Experience unlimited storage and searchable
+                        messages by upgrading your plan.</span>
+                      <a class="btn btn-like-link" target="_blank" href="https://www.jandi.com/landing/en/pricing">
+                        <span>
+                          <span class="ng-scope">See more plan information </span>
+                        </span>
+                        <i class="icon icon-long-arrow-right"></i>
+                      </a>
+
+                    </div>
+                    <div class="team-stats-item storage">
+                      <div class="stats-head">
+                        <i class="stats-icon icon-file"></i>
+                        <h4 class="stats-title" translate>Current File Storage</h4>
+                        <p class="stats-total">Total of <em class="num">0</em> Files</p>
+                      </div>
+                      <div class="stats-body">
+                        <div class="stats-indicator">
+                          <span class="used-amount">
+                            <strong>0</strong><i class="txt-unit"> bytes</i>
+                          </span>
+                          <span class="txt-divider">/</span>
+                          <span class="limited-amount">
+                            <strong>5</strong><i class="txt-unit">GB</i>
+                          </span>
+                          <div class="stats-help icon-info-fill jnd-tooltip-toggle">
+                            <div class="jnd-tooltip t-r tooltip-black">
+                              <div class="tooltip-desc">
+                                <span class="ng-scope">FREE PLAN allows 5GB total
+                                for the entire team.</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="stats-graph"><span class="graph-needle _needle" style="width: 0%;"></span></div>
+                      </div>
+                    </div>
+                    <div class="team-stats-item messages">
+                      <div class="stats-head">
+                        <i class="stats-icon icon-chat"></i>
+                        <h4 class="stats-title" translate>Total Messages</h4>
+                      </div>
+                      <div class="stats-body">
+                        <div class="stats-indicator">
+                          <span class="used-amount">
+                            <strong>0</strong>
+                          </span>
+                          <span class="txt-divider">/</span>
+                          <span class="limited-amount">
+                            <strong>15,000</strong>
+                          </span>
+                          <div class="stats-help icon-info-fill jnd-tooltip-toggle">
+                              <div class="jnd-tooltip t-r tooltip-black">
+                                <div class="tooltip-desc">
+                                  <span class="ng-scope">FREE PLAN allows searching up to 15K messages.</span>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="stats-graph"><span class="graph-needle _needle" style="width: 0%;"></span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="team-standard">
+                    <div class="team-stats-item storage">
+                      <div class="stats-head">
+                        <i class="stats-icon icon-file"></i>
+                        <h4 class="stats-title" translate>Current File Storage</h4>
+                        <p class="stats-total">Total of <em class="num">0</em> Files</p>
+                      </div>
+                      <div class="stats-body">
+                        <div class="stats-indicator">
+                          <span class="used-amount">
+                            <strong>0</strong><i class="txt-unit"> bytes</i>
+                          </span>
+                        </div>
+                        <div class="stats-graph"><span class="graph-needle _needle" style="width: 0%;"></span></div>
+                      </div>
+                    </div>
+                    <div class="team-stats-item messages">
+                      <div class="stats-head">
+                        <i class="stats-icon icon-chat"></i>
+                        <h4 class="stats-title" translate>Total Messages</h4>
+                      </div>
+                      <div class="stats-body">
+                        <div class="stats-indicator">
+                          <span class="used-amount">
+                            <strong>1,500</strong>
+                          </span>
+                        </div>
+                        <div class="stats-graph"><span class="graph-needle _needle" style="width: 0%;"></span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="team-connect">
+                    <div class="team-stats-item">
+                      <div class="stats-head">
+                        <i class="stats-icon icon-connect"></i>
+                        <h4 class="stats-title" translate>Number of Integrations</h4>
+                        <p class="stats-total">Total of <em class="num">0</em> Integrations</p>
+                      </div>
+                      <ul class="stats-connect-list col-5 clear-fix">
+                        <li class="stats-google active" ng-class="{'active': connectDetail.googleCalendar.count > 0 }">
+                          <div class="border-box jnd-tooltip-toggle">
+                            <div class="jnd-tooltip t-c tooltip-black">
+                              <div class="tooltip-desc"><span class="ng-scope">Google Calendar</span></div>
+                            </div>
+                            <div class="bg-box"><img src="assets/images/connect/connect_google_calendar.png"
+                                                     alt="google-calendar"></div>
+                            <em class="blue-count-badge">0</em></div>
+                        </li>
+                        <li class="stats-github">
+                          <div class="border-box jnd-tooltip-toggle">
+                            <div class="jnd-tooltip tooltip-black t-c">
+                              <div class="tooltip-desc"><span class="ng-scope">GitHub</span></div>
+                            </div>
+                            <div class="bg-box"><img src="assets/images/connect/connect_github.png"
+                                                     alt="GitHub"></div>
+                            <em class="blue-count-badge">0</em></div>
+                        </li>
+                        <li class="stats-jira">
+                          <div class="border-box jnd-tooltip-toggle">
+                            <div class="jnd-tooltip tooltip-black t-c">
+                              <div class="tooltip-desc"><span class="ng-scope">JIRA</span></div>
+                            </div>
+                            <div class="bg-box"><img src="assets/images/connect/connect_jira.png" alt="JIRA">
+                            </div>
+                            <em class="blue-count-badge">0</em></div>
+                        </li>
+                        <li class="stats-trello">
+                          <div class="border-box jnd-tooltip-toggle">
+                            <div class="jnd-tooltip tooltip-black t-c">
+                              <div class="tooltip-desc"><span class="ng-scope">Trello</span></div>
+                            </div>
+                            <div class="bg-box"><img src="assets/images/connect/connect_trello.png"
+                                                     alt="Trello"></div>
+                            <em class="blue-count-badge">0</em></div>
+                        </li>
+                        <li class="stats-webhook">
+                          <div class="border-box jnd-tooltip-toggle">
+                            <div class="jnd-tooltip tooltip-black t-c">
+                              <div class="tooltip-desc"><span class="ng-scope">Incoming Webhooks</span>
+                              </div>
+                            </div>
+                            <div class="bg-box"><img src="assets/images/connect/connect_webhook.png"
+                                                     alt="Webhook"></div>
+                            <em class="blue-count-badge">0</em></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="stats-update-info">
+                  <p class="pad-box txt-info">팀 사용량은 매일 한 번씩 업데이트 됩니다.</p>
+                </div>
+              </article>
+            </section>
+          </div>
+        </article>
+      </section>
+    </div>
+  </article>
+  <footer class="footer">
+    <div class="inner-wrap clear-fix">
+      <div class="fl-l">
+        <p class="copy-right">ⓒ Toss Lab, Inc</p>
+      </div>
+      <div class="fl-r">
+        <ul class="gfm">
+          <li><a href="#" target="_blank">FAQ</a></li>
+          <li><a href="#" target="_blank">Privacy Policy</a></li>
+          <li><a href="#" target="_blank">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
